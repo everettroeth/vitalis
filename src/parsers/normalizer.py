@@ -409,6 +409,107 @@ BIOMARKER_ALIASES: dict[str, list[str]] = {
         "ana screen", "antinuclear antibodies", "ana",
         "anti-nuclear antibody", "antinuclear antibody",
     ],
+    # ── DEXA Body Composition ─────────────────────────────────────────────
+    "body_fat_pct": [
+        "body fat %", "body fat percent", "total body fat %",
+        "total body fat percent", "total fat %", "fat %",
+        "percent body fat", "% body fat", "total body fat",
+        "body fat percentage",
+    ],
+    "fat_mass": [
+        "fat mass", "total fat mass", "fat tissue mass",
+        "fat (lbs)", "fat mass (lbs)", "fat mass (kg)",
+    ],
+    "lean_mass": [
+        "lean mass", "total lean mass", "lean tissue mass",
+        "lean body mass", "lbm", "lean (lbs)", "lean mass (lbs)",
+        "fat-free mass", "ffm",
+    ],
+    "bone_mineral_content": [
+        "bone mineral content", "bmc", "bone mass",
+        "bmc (lbs)", "bone mineral content (lbs)",
+    ],
+    "total_body_mass": [
+        "total mass", "total body mass", "total weight",
+        "dexa total mass",
+    ],
+    "vat_mass": [
+        "vat mass", "visceral adipose tissue mass", "visceral fat mass",
+        "visceral fat", "vat", "visceral adipose tissue",
+    ],
+    "vat_volume": [
+        "vat volume", "visceral adipose tissue volume", "visceral fat volume",
+        "visceral fat vol", "vat vol",
+    ],
+    "android_gynoid_ratio": [
+        "android/gynoid ratio", "android gynoid ratio",
+        "android to gynoid ratio", "ag ratio dexa",
+    ],
+    "android_fat_pct": [
+        "android fat %", "android fat percent", "android %",
+    ],
+    "gynoid_fat_pct": [
+        "gynoid fat %", "gynoid fat percent", "gynoid %",
+    ],
+    "appendicular_lean_mass": [
+        "appendicular lean mass", "alm", "appendicular lean",
+        "arms + legs lean mass",
+    ],
+    "fat_mass_index": [
+        "fat mass index", "fmi", "fat mass index (kg/m2)",
+    ],
+    "lean_mass_index": [
+        "lean mass index", "lmi", "lean mass index (kg/m2)",
+    ],
+    "bone_mineral_density": [
+        "bone mineral density", "bmd", "bone density",
+        "bmd (g/cm2)", "bone mineral density (g/cm2)",
+    ],
+    "bone_mineral_density_lumbar_spine": [
+        "lumbar spine bmd", "lumbar bmd", "spine bmd", "l1-l4 bmd",
+        "lumbar spine bone mineral density", "total spine bmd",
+    ],
+    "bone_mineral_density_femoral_neck": [
+        "femoral neck bmd", "femoral bmd", "femoral neck bone mineral density",
+    ],
+    "bone_mineral_density_total_hip": [
+        "total hip bmd", "hip bmd", "total hip bone mineral density",
+    ],
+    # ── Epigenetic / Biological Age ───────────────────────────────────────
+    "biological_age": [
+        "biological age", "bio age", "epigenetic age", "methylation age",
+        "truage", "true age", "index biological age",
+        "dna methylation age", "estimated biological age",
+    ],
+    "chronological_age": [
+        "chronological age", "calendar age", "actual age",
+    ],
+    "dunedinpace": [
+        "dunedinpace", "dunedin pace", "dunedinpace score", "pace score",
+    ],
+    "rate_of_aging": [
+        "rate of aging", "aging rate", "pace of aging",
+        "rate of biological aging", "elysium rate",
+    ],
+    "horvath_age": [
+        "horvath", "horvath clock", "horvath age", "horvath biological age",
+    ],
+    "hannum_age": [
+        "hannum", "hannum clock", "hannum age", "hannum biological age",
+    ],
+    "phenoage": [
+        "phenoage", "pheno age", "phenotypic age", "levine phenoage",
+    ],
+    "grimage": [
+        "grimage", "grim age", "grimage clock",
+    ],
+    "telomere_length": [
+        "telomere length", "telomere", "telomere length (kb)",
+        "mean telomere length", "average telomere length",
+    ],
+    "telomere_percentile": [
+        "telomere percentile", "telomere age percentile",
+    ],
 }
 
 # ---------------------------------------------------------------------------
@@ -672,4 +773,33 @@ _DISPLAY_NAMES: dict[str, str] = {
     "aa_epa_ratio": "AA/EPA Ratio",
     "rheumatoid_factor": "Rheumatoid Factor",
     "ana_screen": "ANA Screen",
+    # DEXA Body Composition
+    "body_fat_pct": "Total Body Fat %",
+    "fat_mass": "Fat Mass",
+    "lean_mass": "Lean Mass",
+    "bone_mineral_content": "Bone Mineral Content",
+    "total_body_mass": "Total Body Mass",
+    "vat_mass": "Visceral Adipose Tissue Mass",
+    "vat_volume": "Visceral Adipose Tissue Volume",
+    "android_gynoid_ratio": "Android/Gynoid Ratio",
+    "android_fat_pct": "Android Fat %",
+    "gynoid_fat_pct": "Gynoid Fat %",
+    "appendicular_lean_mass": "Appendicular Lean Mass",
+    "fat_mass_index": "Fat Mass Index",
+    "lean_mass_index": "Lean Mass Index",
+    "bone_mineral_density": "Bone Mineral Density",
+    "bone_mineral_density_lumbar_spine": "BMD — Lumbar Spine",
+    "bone_mineral_density_femoral_neck": "BMD — Femoral Neck",
+    "bone_mineral_density_total_hip": "BMD — Total Hip",
+    # Epigenetic
+    "biological_age": "Biological Age",
+    "chronological_age": "Chronological Age",
+    "dunedinpace": "DunedinPACE",
+    "rate_of_aging": "Rate of Aging",
+    "horvath_age": "Horvath Clock Age",
+    "hannum_age": "Hannum Clock Age",
+    "phenoage": "PhenoAge",
+    "grimage": "GrimAge",
+    "telomere_length": "Telomere Length",
+    "telomere_percentile": "Telomere Percentile",
 }

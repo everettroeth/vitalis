@@ -179,11 +179,31 @@ def get_registry() -> ParserRegistry:
 
 
 def _build_default_registry() -> ParserRegistry:
-    """Instantiate and register all built-in adapters."""
+    """Instantiate and register all built-in adapters.
+
+    Priority order (ascending = tried first):
+        10  QuestParser
+        15  LabcorpParser
+        18  InsideTrackerParser
+        19  FunctionHealthParser
+        20  DexaFitParser
+        21  BodySpecParser
+        25  TruDiagnosticParser
+        26  ElysiumParser
+        40  DexaGenericParser
+        41  EpigeneticGenericParser
+        99  GenericAIParser  — always last
+    """
     from src.parsers.adapters.quest import QuestParser
     from src.parsers.adapters.labcorp import LabcorpParser
     from src.parsers.adapters.insidetracker import InsideTrackerParser
     from src.parsers.adapters.function_health import FunctionHealthParser
+    from src.parsers.adapters.dexafit import DexaFitParser
+    from src.parsers.adapters.bodyspec import BodySpecParser
+    from src.parsers.adapters.dexa_generic import DexaGenericParser
+    from src.parsers.adapters.trudiagnostic import TruDiagnosticParser
+    from src.parsers.adapters.elysium import ElysiumParser
+    from src.parsers.adapters.epi_generic import EpigeneticGenericParser
     from src.parsers.adapters.generic import GenericAIParser
 
     registry = ParserRegistry()
@@ -191,5 +211,14 @@ def _build_default_registry() -> ParserRegistry:
     registry.register(LabcorpParser())
     registry.register(InsideTrackerParser())
     registry.register(FunctionHealthParser())
-    registry.register(GenericAIParser())  # always last — catch-all
+    # DEXA scan parsers (specific before generic)
+    registry.register(DexaFitParser())
+    registry.register(BodySpecParser())
+    registry.register(DexaGenericParser())
+    # Epigenetic parsers (specific before generic)
+    registry.register(TruDiagnosticParser())
+    registry.register(ElysiumParser())
+    registry.register(EpigeneticGenericParser())
+    # Always last — catch-all AI parser
+    registry.register(GenericAIParser())
     return registry
