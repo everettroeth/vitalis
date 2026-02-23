@@ -25,7 +25,7 @@
 
 **Primary Mark:** An abstract organic mark — a stylized 'V' form whose arms curve inward and bloom outward, like a seedling's first two leaves emerging from soil. The negative space between the arms forms a subtle upward-pointing path (growth trajectory). No sharp angles. Everything is a smooth curve.
 
-**Wordmark:** "Vitalis" set in Playfair Display, tracked +20 letter-spacing, with the 'V' from the mark replacing the wordmark's V. Available as:
+**Wordmark:** "Vitalis" set in Quicksand, tracked +20 letter-spacing, with the 'V' from the mark replacing the wordmark's V. Available as:
 - Full lockup (mark + wordmark, horizontal)
 - Stacked lockup (mark above wordmark)
 - Mark only (app icon, favicon)
@@ -294,7 +294,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        display: ['"Playfair Display"', 'Georgia', 'serif'],
+        display: ['"Quicksand"', 'Georgia', 'serif'],
         sans:    ['"DM Sans"', 'system-ui', 'sans-serif'],
         mono:    ['"DM Mono"', 'monospace'],
       },
@@ -328,12 +328,12 @@ module.exports = {
 
 | Role | Family | Fallback | Google Fonts |
 |------|--------|----------|-------------|
-| **Display / Heading** | Playfair Display | Georgia, serif | `Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400` |
+| **Display / Heading** | Quicksand | Georgia, serif | `Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400` |
 | **Body / UI** | DM Sans | system-ui, sans-serif | `DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600` |
 | **Data / Mono** | DM Mono | 'Courier New', monospace | `DM+Mono:wght@400;500` |
 
 **Design Rationale:**
-- **Playfair Display** brings organic warmth to headings and large metric values. The slight irregularity in stroke weight feels human, not mechanical.
+- **Quicksand** brings organic warmth to headings and large metric values. The slight irregularity in stroke weight feels human, not mechanical.
 - **DM Sans** is humanist geometric — clean and modern but with personality. Excellent readability at small sizes for data-dense UIs.
 - **DM Mono** matches DM Sans in feel, ensuring tabular data (metric values, lab results) aligns perfectly in columns.
 
@@ -378,7 +378,7 @@ All sizes use `clamp()` for fluid scaling between mobile and desktop.
 | Semibold | 600 | Primary headings, CTA buttons, important numbers |
 | Bold | 700 | Display numbers when emphasis needed, alerts |
 
-**Rule:** Metric values on cards use weight 300–400 in Playfair Display at display sizes. The combination of large size + light weight + serif = premium data display. Do not bold big numbers — it looks clinical.
+**Rule:** Metric values on cards use weight 300–400 in Quicksand at display sizes. The combination of large size + light weight + serif = premium data display. Do not bold big numbers — it looks clinical.
 
 ---
 
@@ -408,7 +408,7 @@ All numeric metric values use font-variant-numeric settings:
 
 ```css
 .metric-value {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', Georgia, serif;
   font-feature-settings: 'tnum' 1, 'lnum' 1; /* tabular, lining numbers */
   font-variant-numeric: tabular-nums lining-nums;
   letter-spacing: -0.03em;
@@ -880,7 +880,7 @@ Desktop (sidebar top):
 │  [−]   8.5 hours   [+]        │
 └────────────────────────────────┘
 ```
-Tap buttons are 44×44px minimum. Value in center uses Playfair Display, medium weight.
+Tap buttons are 44×44px minimum. Value in center uses Quicksand, medium weight.
 
 #### Date Picker
 Native `<input type="date">` with custom styling to match the design system. On mobile, this invokes the native date picker (preferred for UX). Style the trigger button, not the picker chrome.
@@ -1075,7 +1075,7 @@ Fat Mass ████████████░░░░░░░░░░░�
 
 Or donut chart variant:
 - Segments: Fat Mass (Sand), Lean Mass (Sage), Bone Mineral (Fern)
-- Center: Total body weight in Playfair Display
+- Center: Total body weight in Quicksand
 
 ---
 
@@ -1878,7 +1878,7 @@ Borders:
   border-vt-clay         → concern borders
 
 Typography:
-  font-display           → Playfair Display (headings, metric values)
+  font-display           → Quicksand (headings, metric values)
   font-sans              → DM Sans (body, UI)
   font-mono              → DM Mono (data tables, code)
 
