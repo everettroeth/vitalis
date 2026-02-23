@@ -1,0 +1,174 @@
+@import "tailwindcss";
+
+/* ── Vitalis Design System Tokens ── */
+
+@theme inline {
+  /* ── Brand Colors ── */
+  --color-vt-sage: #7B9E8B;
+  --color-vt-sage-light: #A8C4B8;
+  --color-vt-sage-dark: #4A6B5A;
+  --color-vt-sand: #C4A87A;
+  --color-vt-sand-light: #E5DDD2;
+  --color-vt-sand-mid: #C4B8AA;
+  --color-vt-fern: #4A6B5A;
+  --color-vt-clay: #B87355;
+  --color-vt-moss: #9BAB82;
+  --color-vt-amber: #D4935A;
+  --color-vt-rose: #C49AAE;
+  --color-vt-cream: #FAFAF5;
+  --color-vt-parchment: #F2EDE4;
+
+  /* ── Semantic Text ── */
+  --color-vt-text-strong: #1E1A16;
+  --color-vt-text-primary: #3D3730;
+  --color-vt-text-secondary: #7A7168;
+
+  /* ── Surfaces ── */
+  --color-vt-bg: #FAFAF5;
+  --color-vt-surface: #F2EDE4;
+  --color-vt-surface-elevated: #FFFFFF;
+  --color-vt-border: #E5DDD2;
+  --color-vt-border-strong: #C4B8AA;
+
+  /* ── Health Status (Semantic) ── */
+  --color-vt-thriving: #7B9E8B;
+  --color-vt-thriving-bg: #EDF4F0;
+  --color-vt-thriving-border: #BDD6CA;
+  --color-vt-watch: #C4A87A;
+  --color-vt-watch-bg: #F7F2EA;
+  --color-vt-watch-border: #E0CAA8;
+  --color-vt-concern: #B87355;
+  --color-vt-concern-bg: #F5EDEA;
+  --color-vt-concern-border: #D9A88A;
+  --color-vt-unknown: #C4B8AA;
+  --color-vt-unknown-bg: #F2EDE4;
+  --color-vt-unknown-border: #E5DDD2;
+
+  /* ── Fonts ── */
+  --font-display: "Quicksand", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "DM Mono", monospace;
+
+  /* ── Radius ── */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-vt-sm: 0 1px 3px rgba(30, 26, 22, 0.06), 0 1px 2px rgba(30, 26, 22, 0.04);
+  --shadow-vt-md: 0 4px 12px rgba(30, 26, 22, 0.08), 0 2px 4px rgba(30, 26, 22, 0.06);
+  --shadow-vt-lg: 0 12px 32px rgba(30, 26, 22, 0.12), 0 4px 8px rgba(30, 26, 22, 0.08);
+  --shadow-vt-float: 0 20px 60px rgba(30, 26, 22, 0.16);
+
+  /* ── Easings ── */
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+
+  /* ── Animations ── */
+  --animate-page-enter: page-enter 250ms var(--ease-decelerate) forwards;
+  --animate-shimmer: shimmer 1.5s ease-in-out infinite;
+  --animate-modal-in: modal-in 250ms var(--ease-decelerate) forwards;
+  --animate-fade-in: fade-in 250ms var(--ease-smooth) forwards;
+}
+
+/* ── CSS Custom Properties (non-Tailwind) ── */
+
+:root {
+  --vt-duration-fast: 150ms;
+  --vt-duration-base: 250ms;
+  --vt-duration-slow: 350ms;
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+}
+
+/* ── Dark Mode ── */
+
+[data-theme="dark"] {
+  --color-vt-bg: #1A1714;
+  --color-vt-surface: #23201D;
+  --color-vt-surface-elevated: #2C2924;
+  --color-vt-border: #38332E;
+  --color-vt-border-strong: #4A4540;
+  --color-vt-text-strong: #F2EDE4;
+  --color-vt-text-primary: #D4C8B8;
+  --color-vt-text-secondary: #9A8E84;
+  --color-vt-thriving-bg: #1E2D27;
+  --color-vt-thriving-border: #2A4538;
+  --color-vt-watch-bg: #2A2418;
+  --color-vt-watch-border: #3D3020;
+  --color-vt-concern-bg: #2A1F18;
+  --color-vt-concern-border: #3D2A20;
+  --color-vt-unknown-bg: #23201D;
+  --color-vt-unknown-border: #38332E;
+  --shadow-vt-sm: 0 1px 3px rgba(0, 0, 0, 0.24);
+  --shadow-vt-md: 0 4px 12px rgba(0, 0, 0, 0.32);
+  --shadow-vt-lg: 0 12px 32px rgba(0, 0, 0, 0.40);
+  --shadow-vt-float: 0 20px 60px rgba(0, 0, 0, 0.48);
+}
+
+/* ── Keyframes ── */
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes modal-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ── Reduced Motion ── */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Base Styles ── */
+
+body {
+  background: var(--color-vt-bg);
+  color: var(--color-vt-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Metric Value Typography ── */
+
+.metric-value {
+  font-family: var(--font-display);
+  font-feature-settings: 'tnum' 1, 'lnum' 1;
+  font-variant-numeric: tabular-nums lining-nums;
+  letter-spacing: -0.03em;
+}
