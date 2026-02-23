@@ -1,0 +1,661 @@
+=== PAGE 1 ===
+SPEED OF AGING REPORT
+EVERETT ROETH • 0001-53038-2MC9AZV
+Report Date: 2025-02-20
+
+=== PAGE 2 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 2 OF 21
+Results
+3
+Taking action to counter your Biological Aging makes a huge difference
+4
+Speed of Aging (PACE)
+5
+What does it test and how to interpret your results?
+5
+How is PACE better than earlier generations of epigenetic age clocks?
+5
+What actions can you take to reduce your speed of biological aging (PACE score)?
+7
+The Don't Die Food Guide
+8
+Organs and Systems age clock(s)
+9
+What does it test and how to interpret your results?
+9
+How do Organ and System Age Clocks differ from systemic epigenetic aging clocks?
+11
+What actions can you take to reduce your organs and systems biological age?
+12
+Track your health biomarkers
+15
+FAQ
+16
+How often should I retest?
+16
+How is Pace different from previous clocks like Horvath or GrimAge?
+16
+How do we determine Organ and System ages from blood samples?
+17
+How is DNA methylation different from a DNA test?
+18
+How are telomere length tests different from epigenetic aging tests?
+18
+What are the interventions that decrease or increase biological age?
+19
+How is my Pace of Aging low, but my biological age is high relative to my chronological age?
+21
+How is my Pace of Aging high, but my biological age is low relative to my chronological age?
+21
+References
+21
+Table of Contents
+
+=== PAGE 3 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 3 OF 21
+0.74
+AGING SLOWER
+PACE OF AGING
+24.9
+YOUNGER
+BIOLOGICAL AGE
+27.5
+CHRONOLOGICAL AGE
+You are aging slower than 86.48% of the population who took this test with the same chronological age as you.
+CHRONOLOGICAL AGE
+LUNG AGE
+2.3 YEARS OLDER
+METABOLIC AGE
+0.6 YEARS YOUNGER
+MUSCULOSKELETAL AGE
+3.2 YEARS YOUNGER
+BLOOD AGE
+3.7 YEARS OLDER
+LIVER AGE
+2.8 YEARS OLDER
+INFLAMMATION AGE
+3.6 YEARS YOUNGER
+KIDNEY AGE
+2.3 YEARS OLDER
+HEART AGE
+2.4 YEARS YOUNGER
+HORMONE AGE
+2.3 YEARS YOUNGER
+IMMUNE SYSTEM AGE
+2.1 YEARS OLDER
+BRAIN AGE
+5.3 YEARS OLDER
+BIOLOGICAL AGE
+2.7 YEARS YOUNGER
+27.5
+29.9
+26.9
+24.4
+31.2
+30.3
+24.0
+29.8
+25.2
+25.2
+29.7
+32.8
+24.9
+
+=== PAGE 4 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 4 OF 21
+Bryan Johnson has the best aging score in the entire world (slowest speed of biological aging), with a personal best
+of 0.48 and an average pace of 0.53 (starting from a PACE greater than 1 four years ago), now Bryan celebrates his
+"biological Birthday" once every 24 months.
+This document is designed to get you up to speed with our Speed of Aging tests, to teach you how to interpret your
+results, and give you proven action points inspired by Bryan's journey in slowing down his biological age, so that you
+too can achieve similar remarkable results.
+Keen in mind: Biological Aging is mostly driven by the environment, habits and lifestyle choices and is malleable
+to interventions.
+Unlike chronological aging, biological aging is malleable and is a direct outcome of your behaviour and lifestyle
+choices. A seminal study (3) in over 2000 twins (gold standard for studying genetic effects) found that longevity
+was only 25% hereditary. In other words, your genes determine only 25% of your biological aging speed and
+patterns, while the rest (75%) is up to you to decide and influence.
+While all three markers of biological age are responsive, speed of aging is more dynamic in its response as it relies
+on estimating the speed of aging from a snapshot in time, hence allowing quick feedback to new interventions and
+lifestyle adjustments.
+Biological Age will normally follow the speed of aging, with some delay for trends to appear.
+Imagine a car changing its speed, you will be able to see the change directly at the speedometer (speed of aging)
+much faster than seeing when you reach your destination based on the new speed.
+Organ and System-specific biological age can show how certain interventions impact specific systems. For
+example, exercise tends to have the most significant and rapid effect on musculoskeletal age and heart age, while
+dietary improvements primarily influence liver and inflammation-related aging.
+Taking action to counter your Biological Aging makes a huge difference
+
+=== PAGE 5 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+Speed of Aging (Pace)
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 5 OF 21
+Think of this as the rate at which your body is aging, it is the speed at which your body and cells are epigenetically
+aging, in other words it represents the speed at which your cells are accumulating methylation changes associated
+with biological aging.
+A pace of 1 means you are aging 1 year per calendar year, lower than 1 means you are aging slower, and higher than
+1 means you are aging faster.
+Example: a PACE of 0.5 means that you celebrate your "biological" birthday only once every two calendar years.
+Purpose: Quantifies the rate at which your body is aging in months per year.
+Mechanism: Uses a machine-learning algorithm developed by researchers at Duke University and Columbia
+University, which was trained on longitudinal data (the Dunedin Study) to evaluate hundreds of DNA methylation
+marks.
+Performance: Offers high test–retest reliability (with intra-class correlation values above 0.98) and is sensitive to
+lifestyle modifications.
+What does it test and how to interpret your results?
+PACE has higher association size with both physiological and self-assessed health markers. (1)
+How is PACE better than earlier generations of epigenetic age clocks?
+
+=== PAGE 6 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 6 OF 21
+PACE score predicts the physiological, structural, and biochemical markers of aging and damage in the body.
+Two examples here:
+1. PACE predicts brain age (left) (1).
+2. PACE predicts facial aging (right) (1), the picture is AI generated merging facial aging features of people all
+chronologically 45, with increasing pace rates)
+Experimentally, DunedinPACE has been shown as the best predictor of mortality, and age related decline
+compared to earlier clocks.
+In a recent evaluation of 16 biological aging clocks across 51 interventional studies, DunedinPACE stood out as
+most reliable by always being either in agreement with a majority of the remaining clocks, or uniquely detecting a
+change in biological age, where no other clock did (2).
+Performance: Offers high test–retest reliability (with intra-class correlation values above 0.98) and is sensitive to
+lifestyle modifications.
+
+=== PAGE 7 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 7 OF 21
+Here are the top 5 supplements, lifestyle and dietary interventions to reduce your systemic speed of aging and get
+a better PACE score for your next test.
+Top 5 Supplements
+1. Spermidine – Supports autophagy, cellular repair, and longevity pathways. (Included in Blueprint Essential Capsules)
+2. Nicotinamide Mononucleotide (NMN) or Nicotinamide Riboside (NR) – Boosts NAD+ levels, essential for mitochondrial
+and DNA repair. (Included in Blueprint Essential Capsules)
+3. Quercetin + Dasatinib (D+Q Senolytics) – Helps clear senescent cells, reducing systemic inflammation and improving
+biological age markers.
+4. Vitamin D3 + K2 – Supports immune function, bone health, and may influence gene expression related to aging.
+(Included in Blueprint Essential Softgels)
+5. Omega-3 Fatty Acids (EPA & DHA) – Reduces inflammation, improves cardiovascular health, and supports cognitive
+function. (Blueprint EPA & DHA coming June 2025)
+Top 5 Lifestyle Interventions
+1. Caloric Restriction (CR) – One of the most well-documented longevity interventions, shown to slow biological aging and
+improve metabolic flexibility.
+2. Strength & Resistance Training – Builds muscle mass, enhances mitochondrial function, and improves metabolic
+flexibility.
+3. High-Intensity Interval Training (HIIT) – Increases cardiovascular efficiency, stimulates mitochondrial biogenesis, and
+enhances insulin sensitivity.
+4. Hyperbaric Oxygen Therapy (HBOT - High & Mild Pressure) – Increases oxygen availability, promotes telomere
+lengthening, reduces inflammation, and enhances stem cell activity. (Bryan's HBOT protocol)
+5. Prioritizing High-Quality Sleep (7-9 hours per night) – Crucial for epigenetic stability, immune function, and cognitive
+longevity.
+Top 5 Dietary Interventions
+1. Green Mediterranean Diet – A more polyphenol-rich version of the Mediterranean Diet, shown to have superior anti-
+aging effects.
+2. Polyphenol-Rich Foods (Berries, Dark Chocolate, Green Tea, Olive Oil, Red Wine in Moderation) – Reduce oxidative
+stress and inflammation.
+3. Cruciferous Vegetables (Broccoli, Brussels Sprouts, Kale, Cauliflower) – Contain sulforaphane and other bioactive
+compounds that enhance detoxification and DNA repair.
+4. Adequate Protein Intake (Pea/Hemp Protein, Grass-Fed Meat, Fatty Fish) – Supports muscle maintenance and
+metabolic function, critical for longevity.
+5. Prebiotic & Fermented Foods (Kimchi, Sauerkraut, Yogurt, Garlic, Onions) – Enhance gut microbiome diversity, which is
+linked to immune function and longevity.
+What actions can you take to reduce your speed of biological aging (PACE score)?
+
+=== PAGE 8 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 8 OF 21
+All these aspects and many more dietary requirements are covered in the Blueprint diet.
+
+=== PAGE 9 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+Organs and Systems age clock(s)
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 9 OF 21
+These methylation scores have been validated to correlate with biological markers of various organs and systems
+in a representative cohort of 5000 participants. These scores help identify the drivers of overall speed of biological
+aging and detect early risk factors for organ-specific diseases that might still be undetected through conventional
+biomarkers.
+Biological Age Clock (Organ Age Clock):
+Purpose: Estimates overall biological age and the relative "age" of 11 organ systems, comparing these to
+chronological age.
+Mechanism: This clock analyzes methylation patterns at over 170 sites across the genome, integrating
+system-specific clinical chemistry and functional measures. It was developed in collaboration with Yale
+University scientists.
+The Biological Age Score measures your overall epigenetic age up to the point of the test. Ideally you want to have
+a biological age as low as possible, and definitely lower than your chronological age. This is based on all
+components of 11 organs/systems biological aging clocks
+The following figure shows the 3 steps of training of the clocks based on relevant markers for each organ/system.
+These are a combination of phenotypic, structural, and biochemical markers.
+Each organ clock analyzes a distinct combination of DNA methylation signatures to estimate an aging score for
+that organ or system. Combining these scores across all systems provides a single biological age.
+What does it test and how to interpret your results?
+
+=== PAGE 10 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 10 OF 21
+The training and testing work flow for Systems Age is depicted in the figure below (4)
+
+=== PAGE 11 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 11 OF 21
+Understanding your aging type:
+Imagine your organs and systems aging like a row of dominoes, except the sequence is unique to each person.
+When one system begins aging more rapidly, it can set off a chain reaction, accelerating the aging of the next
+system, and so on.
+Organ age clocks identify your unique aging type, the sequence of your "aging dominoes". By understanding which
+organs or systems are most vulnerable, you can take proactive steps to slow their decline and prevent premature
+failure.
+The problem with relying on a single Biological Clock measure is that it can mask the aging of individual organs,
+potentially delaying intervention until it's too late. Once the domino effect starts, reversing the decline of the
+weakest link may become impossible.
+The following figure shows an example of three individuals all having comparable chronological and overall
+biological (as a single measure) age. However, each individual has a very distinctive aging type affecting different
+organs and systems.
+Moreover, unlike conventional biomarkers, these novel organ age clocks offer a fully standardized and unified
+measure of organ and system health and age for the first time. In comparison, conventional biomarkers can vary in
+measurement methods between labs, leading to inconsistencies. Biological age clocks, on the other hand, all rely
+on the same fully quantifiable DNA methylation signals, using standardized methods and algorithms for
+quantifications. This ensures that your biological age tests will always be consistent and comparable (4).
+How do Organ and System Age Clocks differ from systemic epigenetic aging clocks?
+
+=== PAGE 12 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 12 OF 21
+1. Cardiovascular System (Heart Age)
+Increase Zone 2 Cardio → Engage in 150+ minutes/week of moderate-intensity exercise (e.g., cycling, brisk
+walking) to improve mitochondrial efficiency and vascular health.
+Optimize ApoB & LDL Levels → Aim for ApoB < 60 mg/dL using diet (e.g., plant-based, Mediterranean) and
+pharmacologic interventions if needed (statins, PCSK9 inhibitors).
+Improve Nitric Oxide Production → Consume beetroot, dark leafy greens, and citrulline/magnesium to
+enhance vasodilation and endothelial function.
+2. Metabolic System (Glucose & Insulin Sensitivity)
+Time-Restricted Eating (TRE) → Eat within a 6-10 hour window to improve insulin sensitivity and metabolic
+flexibility.
+Strength Training → Perform 2-3 sessions/week of resistance training to increase glucose disposal and lean
+muscle mass.
+Optimize Magnesium & Berberine → Supplement with magnesium (400 mg/day) and berberine (500 mg 2-
+3x/day) to enhance insulin signaling and glucose metabolism.
+3. Liver Age
+Reduce Processed Carbohydrates & Alcohol → Minimize fructose, refined grains, and alcohol to lower liver
+fat and improve lipid metabolism.
+Support Detox Pathways → Increase intake of sulforaphane (broccoli sprouts), NAC, and taurine to enhance
+phase 2 liver detoxification.
+Monitor ALT, AST, and GGT → Regular blood testing and liver ultrasound (if necessary) to detect early signs of
+fatty liver or fibrosis.
+4. Kidney Age
+Maintain Optimal Hydration → Drink at least 2.5-3L of filtered water/day, especially if protein intake is high.
+Reduce Sodium & Balance Electrolytes → Keep sodium under 2,300 mg/day while optimizing potassium
+(3,500-4,700 mg/day) and magnesium intake.
+Limit NSAID Use → Avoid chronic NSAID use (e.g., ibuprofen) due to nephrotoxicity risks; consider
+alternatives for pain management.
+What actions can you take to reduce your organs and systems biological age?
+
+=== PAGE 13 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 13 OF 21
+5. Pulmonary System (Lung Age)
+Increase VO2 Max → Perform high-intensity interval training (HIIT) 2x/week to enhance pulmonary efficiency.
+Nasal Breathing & Air Filtration → Use HEPA filters indoors and focus on nasal breathing to reduce particulate
+exposure.
+Reduce Inflammatory Foods & Toxins → Minimize omega-6 seed oils, environmental pollutants, and smoke
+exposure.
+6. Brain Age (Cognitive Function)
+Optimize BDNF & Neuroplasticity → Do aerobic exercise (Zone 2 & HIIT), cold exposure, and intermittent
+fasting to upregulate BDNF.
+Improve Omega-3 & Choline Levels → Take DHA/EPA (2-3 g/day) and phosphatidylcholine to support
+neuronal membrane integrity.
+Prioritize Deep Sleep → Get 7-9 hours of sleep per night, optimizing melatonin, magnesium, and blue-light
+exposure.
+7. Musculoskeletal System (Bone & Muscle Age)
+Strength Train 3-4x/Week → Prioritize progressive overload, compound movements, and eccentric training.
+Optimize Protein Intake → Consume 1.6-2.2 g/kg of protein daily, emphasizing leucine-rich sources.
+Monitor & Supplement Vitamin D3/K2 → Keep Vitamin D >50 ng/mL and supplement D3 with K2 (MK-7) for
+bone health.
+8. Blood System
+Optimize Iron Levels → Maintain ferritin between 50-100 ng/mL; if high, donate blood; if low, increase heme
+iron and vitamin C intake.
+Support Red Blood Cell Production → Ensure adequate B12, folate, and riboflavin to improve oxygen delivery
+and prevent anemia.
+Enhance Blood Flow & Reduce Clotting Risk → Increase omega-3 intake (DHA/EPA), stay hydrated, and use
+nitric oxide boosters (beets, citrulline).
+
+=== PAGE 14 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 14 OF 21
+9. Immune System Age
+Cold Exposure & Sauna Use → Incorporate cold plunges (2-3x/week) and sauna therapy to modulate immune
+function.
+Increase Polyphenols & Zinc → Consume quercetin, EGCG (green tea), and zinc lozenges (15-30 mg/day) for
+immune resilience.
+Optimize Gut Health → Take spore-based probiotics and prebiotic fiber to enhance immune regulation via
+the gut microbiome.
+10. Hormonal System Age
+Regulate Circadian Rhythm & Light Exposure → Get morning sunlight, reduce blue light at night, and maintain
+consistent sleep timing.
+Strength Train & Increase Testosterone Precursors → Use heavy resistance training, Tongkat Ali, and boron to
+support hormone balance.
+Monitor & Optimize Thyroid Function → Ensure iodine, selenium, and tyrosine intake is adequate while testing
+TSH, Free T3/T4, and Reverse T3.
+11. Inflammatory System Age
+Adopt an Anti-Inflammatory Diet → Minimize processed foods, seed oils, and refined sugars, favoring a
+Mediterranean or anti-inflammatory diet.
+Reduce Chronic Stress & Improve HRV → Use breathwork, meditation, and parasympathetic activation
+techniques (HRV training).
+Optimize Omega-3 to Omega-6 Ratio → Increase EPA/DHA intake (2-4 g/day) while reducing linoleic acid
+sources (vegetable oils, ultra-processed foods).
+
+=== PAGE 15 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 15 OF 21
+Biological aging is the sum-up of thousands of biochemical processes occurring in the body, these are measured
+by tracking other biochemical, environmental, and structural markers.
+Take more tests to evaluate overall health and pinpoint actual conditions contributing to your aging process, and
+wider health issues.
+https://blueprint.bryanjohnson.com/pages/biomarkers
+Track your health biomarkers
+
+=== PAGE 16 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+FAQ
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 16 OF 21
+Generally retesting every year at least is recommended.
+If you are making lifestyle improvements (e.g. starting the Blueprint Protocols and Stack) or if you are undergoing
+new rejuvenation therapies (e.g. plasma exchange, HBOT) you might want to test more often to measure the effect
+of these interventions on your biological age. In that case, testing twice a year or quarterly is preferred.
+This is especially true for some interventions that have shown mixed results when put to test with epigenetic clocks
+(e.g. Rapamycin, senolytics) or dietary or supplemental choices with varying effect based on genetics or
+environmental factors (e.g. diets rich in red meat, antioxidant supplementation).
+How often should I re-test?
+Here is what distinguishes each of the 3 generation of epigenetic age clocks
+1st Generation (Horvath, Hannum): created from data sets on people at different chronological ages (single
+snapshot). While this clock predicts chronological age accurately, it is not strongly correlated to health and
+longevity outcomes.
+2nd Generation (GrimAge PhenoAge): created from data on different people (single snapshot) and trained beyond
+chronological age to predict health biomarkers and mortality risk.
+3rd Generation (DunedinPACE): the first to track the aging outcomes of participants across their lifespan based on
+data from the same individuals from the age 3 to age 51.
+Advantages of DunedinPACE:
+Rules out noise in the data due to environmental exposures resulting from people living through different
+times and in various places.
+Instead of reporting biological age, or time to death, DunedinPACE reports the rate of decline and aging
+experienced in the recent past (PACE: >1 aging fast, <1 aging slow), which makes it very responsive to
+interventions and ideal for evaluating them with minimal lag and turnover time.
+Experimentally, DunedinPACE has been shown as the best predictor of mortality, and age related decline
+compared to earlier clocks.
+In a recent evaluation of 16 biological aging clocks across 51 interventional studies, DunedinPACE stood out
+as most reliable by always being either in agreement with a majority of the remaining clocks, or uniquely
+detecting a change in biological age, where no other clock did.
+How is Pace different from previous clocks like Horvath or GrimAge?
+
+=== PAGE 17 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 17 OF 21
+The figure below shows the higher responsiveness of the DunedinPACE clock compared to all earlier generations
+(Gen 1 and 2) to a calorie restriction (the most established longevity intervention).
+
+=== PAGE 18 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 18 OF 21
+System Age algorithms are trained using markers specific to each organ or system. These markers are then
+transformed into "Principal Components" which allow the algorithm to focus on detecting relevant methylation
+signals for each component. For example, for the heart, relevant markers like BMI, lipids, and heart rate are
+included. Each organ's clock is then abstracting several relevant markers, e.g. for heart: BMI, Lipids, heart rate, etc..
+The clock for each organ is then trained to give a single marker for each participant, which is then used to estimate
+the age of the organ/system.
+How do we determine Organ and System ages from blood samples?
+Think of DNA as a printed book, with the sequence representing the letters and worlds of the book. DNA
+methylation (epigenetic signals) can be interpreted as a pencil or sticky notes with instructions on which
+paragraphs to concentrate on or skip.
+A DNA test (e.g. genome sequencing) measures the sequence (alphabet of 4 bases A,G,C, and T) of the DNA and
+detects mutations (e.g. polymorphisms) and genotypes that change genetic predisposition to health and disease.
+DNA methylation testing measures changes in the epigenetic regulation of the DNA, which controls gene
+expression by turning genes on or off and adjusting their activity levels. In the context of aging, these changes can
+cause cells to lose or "forget" their original identity and function, contributing to the aging process.
+The Speed of Aging test algorithm measures the methylation level of DNA units that are linked to aging decline and
+damage, and age related disease. (Refer to Q1 for more details)
+How is DNA methylation different from a DNA test?
+Telomeres are sequence repeats flanking the chromosomes and keeping the edges from being damaged, when
+telomeres get too short, cells go into senescence. This drives aging both by hindering tissue regeneration and by
+secreting damaging pro-aging signals known as SASP.
+Telomere tests predict aging based on the length of the telomeres or the activity of the telomerase enzyme
+responsible for regenerating the telomeres at every cell division.
+How are telomere length tests different from epigenetic aging tests?
+
+=== PAGE 19 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 19 OF 21
+While the current aging clocks allow us to measure and predict biological aging at unprecedented accuracy and
+detail, this field is still in its infancy. One reason is the existence of various generations of clocks. As explained
+earlier, many studies in the scientific literature relied on 1st generation clocks in evaluating potential anti-aging
+interventions, which lead to biases that still persist till today.
+As an example, very recent research from Yale (a pre-print report 2)) evaluated various interventions (some
+therapeutic for particular diseases and some with rejuvenation potential) using 16 epigenetic biological age clocks.
+Besides showing that PACE was the most consistent and reliable clock in general, this research also uncovered
+some surprising biases due to the over use of 1st generation clocks in the scientific literature.
+Among the biggest surprises was that rapamycin seemed to accelerate biological aging on average, when
+evaluated using all 16 clocks.
+Here are some of the interventions that appeared to slow down aging according to this evaluation across 16
+epigenetic clocks
+1. Pharmacological Interventions: Anti-TNF therapy (anti-inflammatory), Metformin (Anti-diabetes, AMPK
+activation),Ketamin (antidepressant psychedelic, dissociative).
+2. Supplements: AC11 supplement (natural DNA repair booster), TruLacta (a human-milk based supplement).
+3. Lifestyle Adjustments & Surgeries: Gastric Bypass (weight reduction), smoking cessation, kidney transplant, hyperbaric
+oxygen therapy HBOT (large average effect, but no statistical significance)
+4. Diets: Vegan Diet, Green Mediterranean Diet, Mediterranean Diet, low fat and low carb diets.
+Here are some of the interventions that appeared to accelerate aging according to this evaluation across 16
+epigenetic clocks
+1. Pharmacological Interventions: Rapamycin (mTORC1 inhibitor, immunosuppressant), senolytics.
+2. Supplements: Buckwheat Extract (rich in B vitamins)
+3. Gene Therapies: Follistatin (myostatin inhibition, muscle growth)
+4. Lifestyle Adjustments, procedures & surgeries: Kidney Dialysis
+What are the interventions that decrease or increase biological age?
+
+=== PAGE 20 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 20 OF 21
+Important: DunedinPACE results for all these evaluations were consistent with the average of all clocks, and often
+PACE was the only one to detect an effect (2).
+
+=== PAGE 21 ===
+B L U E P R I N T  B I O M A R K E R S
+Speed of Aging Report
+KIT ID
+2MC9AZV
+REPORTED
+2025-02-20
+COLLECTED
+2025-01-07
+THIS TEST IS A RESEARCH AND DEVELOPMENT PRODUCT BY BLUEPRINT BIOMARKERS.
+COPYRIGHT © 2024 BLUEPRINT BRYAN JOHNSON
+PAGE 21 OF 21
+Think of Pace as a speedometer and the biological age an overall result. As an example, we see a lot of low rates of
+aging but high biological ages in ex-emergency medicine physicians. These physicians have had long shift-based
+work and as a result, often poor nutrition and overall aging. However, when they get into the integrative medicine
+space, their Pace starts to go down. However, it takes a longer time to correct the "aging damage" on the overall
+biological age algorithms. In summary, the overall age is not the same output as the PACE.
+How is my Pace of Aging low, but my biological age is high relative to my chronological age?
+The inverse of the previous FAQ could also be true. You might have accumulated a low amount of "aging damage"
+throughout most of your life because you had low stress, were sleeping well, and eating a diet that promotes
+healthy aging, leading to a low biological age. However, due to recent changes in your lifestyle or nutrition, your
+Pace might be a lot higher at the time you took the test.
+How is my Pace of Aging high, but my biological age is low relative to my chronological age?
+1. https://www.trudiagnostic.com/post/the-dunedinpace-algorithm-meeting-the-criteria-for-an-epigenetic-age-
+related-biomarker-to-use-in-personalized-medicine
+2. https://www.biorxiv.org/content/10.1101/2024.10.22.619522v1.full.pdf
+3. https://link.springer.com/article/10.1007/BF02185763
+4. https://www.biorxiv.org/content/10.1101/2023.07.13.548904v1.full.pdf
+References
+

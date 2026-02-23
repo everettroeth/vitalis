@@ -1,0 +1,1845 @@
+=== PAGE 1 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Phone:
+925.212.1073 
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Requisition: 0008230
+Lab Ref #:
+882A2AAF6664420C
+ 
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+MAIL992
+DAMASCO, LEO
+JUNCTION
+440 N BARRANCA AVE # 3811
+COVINA, CA 91723-1722
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+COMMENTS:
+FASTING:YES
+ Test Name
+In Range
+Out Of Range
+Reference Range
+Lab
+ HS CRP
+0.2
+mg/L 
+EN
+ 
+Reference Range
+ 
+Optimal <1.0
+ 
+Jellinger PS et al. Endocr Pract.2017;23(Suppl 2):1-87.
+ 
+For ages >17 Years:
+ 
+hs-CRP mg/L  Risk According to AHA/CDC Guidelines
+ 
+<1.0         Lower relative cardiovascular risk.
+ 
+1.0-3.0      Average relative cardiovascular risk.
+ 
+3.1-10.0     Higher relative cardiovascular risk.
+ 
+             Consider retesting in 1 to 2 weeks to
+ 
+             exclude a benign transient elevation
+ 
+             in the baseline CRP value secondary
+ 
+             to infection or inflammation.
+ 
+>10.0        Persistent elevation, upon retesting,
+ 
+             may be associated with infection and
+ 
+             inflammation.
+ 
+ 
+ 
+Pearson TA, Mensah GA, Alexander RW, et al. Markers
+ 
+of inflammation and cardiovascular disease:  
+ 
+application to clinical and public health practice:
+ 
+A statement for healthcare professionals from the 
+ 
+Centers for Disease Control and Prevention and the 
+ 
+American Heart Association. Circulation 2003; 107(3):
+ 
+499-511.
+ HOMOCYSTEINE
+7.1
+< or = 12.9 umol/L
+NW
+ 
+Homocysteine is increased by functional deficiency of 
+ 
+folate or vitamin B12. Testing for methylmalonic acid 
+ 
+differentiates between these deficiencies. Other causes 
+ 
+of increased homocysteine include renal failure, folate 
+ 
+antagonists such as methotrexate and phenytoin, and 
+ 
+exposure to nitrous oxide.
+ 
+Selhub J, et al., Ann Intern Med. 1999;131(5):331-9.
+COMPREHENSIVE METABOLIC
+NW
+ 
+PANEL
+ 
+ 
+GLUCOSE
+78
+65-99 mg/dL
+ 
+ 
+ 
+ 
+           Fasting reference interval
+ 
+ 
+ 
+UREA NITROGEN (BUN)
+17
+7-25 mg/dL
+ 
+ 
+CREATININE
+0.99
+0.60-1.24 mg/dL
+ 
+ 
+EGFR
+106
+> OR = 60 mL/min/1.73m2
+ 
+ 
+BUN/CREATININE RATIO
+SEE NOTE:
+6-22 (calc)
+ 
+ 
+   Not Reported: BUN and Creatinine are within
+ 
+   reference range.
+ 
+    
+ 
+SODIUM
+139
+135-146 mmol/L
+ 
+ 
+POTASSIUM
+3.9
+3.5-5.3 mmol/L
+ 
+ 
+CHLORIDE
+103
+98-110 mmol/L
+ 
+ 
+CARBON DIOXIDE
+26
+20-32 mmol/L
+ 
+ 
+CALCIUM
+9.0
+8.6-10.3 mg/dL
+ 
+ 
+PROTEIN, TOTAL
+6.4
+6.1-8.1 g/dL
+ 
+ 
+ALBUMIN
+4.4
+3.6-5.1 g/dL
+ 
+PAGE 1 OF 12
+
+=== PAGE 2 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+Test Name
+In Range
+Out Of Range
+Reference Range
+Lab
+ 
+GLOBULIN
+2.0
+1.9-3.7 g/dL (calc)
+ 
+ 
+ALBUMIN/GLOBULIN RATIO
+2.2
+1.0-2.5 (calc)
+ 
+ 
+BILIRUBIN, TOTAL
+0.8
+0.2-1.2 mg/dL
+ 
+ 
+ALKALINE PHOSPHATASE
+45
+36-130 U/L
+ 
+ 
+AST
+21
+10-40 U/L
+ 
+ 
+ALT
+17
+9-46 U/L
+ 
+ HEMOGLOBIN A1c
+5.1
+<5.7 %
+NW
+ 
+For the purpose of screening for the presence of
+ 
+diabetes:
+ 
+ 
+ 
+<5.7%       Consistent with the absence of diabetes
+ 
+5.7-6.4%    Consistent with increased risk for diabetes
+ 
+            (prediabetes)
+ 
+> or =6.5%  Consistent with diabetes
+ 
+ 
+ 
+This assay result is consistent with a decreased risk
+ 
+of diabetes.
+ 
+ 
+ 
+Currently, no consensus exists regarding use of
+ 
+hemoglobin A1c for diagnosis of diabetes in children.
+ 
+ 
+ 
+According to American Diabetes Association (ADA)
+ 
+guidelines, hemoglobin A1c <7.0% represents optimal
+ 
+control in non-pregnant diabetic patients. Different
+ 
+metrics may apply to specific patient populations. 
+ 
+Standards of Medical Care in Diabetes(ADA).
+ 
+  
+ MAGNESIUM
+2.1
+1.5-2.5 mg/dL
+NW
+ URIC ACID
+5.0
+4.0-8.0 mg/dL
+NW
+ 
+Therapeutic target for gout patients: <6.0 mg/dL
+ 
+  
+ GGT
+7
+3-70 U/L
+NW
+ AMYLASE
+42
+21-101 U/L
+NW
+ LIPASE
+9
+7-60 U/L
+NW
+ TSH
+1.06
+0.40-4.50 mIU/L
+NW
+ T4, FREE
+1.3
+0.8-1.8 ng/dL
+NW
+ T3, FREE
+3.6
+2.3-4.2 pg/mL
+NW
+THYROID PEROXIDASE AND THYROGLOBULIN ANTIBODIES
+ 
+THYROGLOBULIN ANTIBODIES
+<1
+< or = 1 IU/mL
+EN
+ 
+THYROID PEROXIDASE
+EN
+ANTIBODIES
+2
+<9 IU/mL
+ 
+ LEPTIN
+0.5
+ng/mL
+EZ
+ 
+ 
+ 
+Reference Ranges for Leptin:
+ 
+ 
+ 
+Adult Lean Subjects (18-71 years) with BMI range
+ 
+of 18-25:
+ 
+ 
+ 
+    Males:     0.3-13.4 ng/mL
+ 
+    Females:   4.7-23.7 ng/mL
+ 
+ 
+ 
+Adult Subjects (19-60 years) with BMI range
+ 
+of 25-30:
+ 
+ 
+ 
+    Males:     1.8-19.9 ng/mL
+ 
+    Females:   8.0-38.9 ng/mL
+PAGE 2 OF 12
+
+=== PAGE 3 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+Test Name
+In Range
+Out Of Range
+Reference Range
+Lab
+ 
+ 
+ 
+Pediatric Reference Ranges for Leptin:
+ 
+ 
+ 
+    5-9.9  years:     0.6-16.8 ng/mL
+ 
+   10-13.9 years:     1.4-16.5 ng/mL
+ 
+   14-17.9 years:     0.6-24.9 ng/mL
+ 
+ 
+ 
+This test was developed and its analytical performance
+ 
+characteristics have been determined by Quest Diagnostics.
+ 
+It has not been cleared or approved by the FDA. This assay
+ 
+has been validated pursuant to the CLIA regulations and is
+ 
+used for clinical purposes.
+ METHYLMALONIC ACID
+200
+55-335 nmol/L
+EZ
+ 
+ 
+ 
+Serum methylmalonic acid (MMA) levels are used to diagnose
+ 
+and monitor several rare inborn errors of metabolism,
+ 
+including methylmalonic aciduria. The enzymatic conversion
+ 
+of MMA to succinic acid requires vitamin B12
+ 
+(adenosyl-cobalamin) as a cofactor. Serum MMA levels are
+ 
+also used for assessing functional vitamin B12 deficiency.
+ 
+Vitamin B12 is essential for fetal neurodevelopment,
+ 
+particularly early in pregnancy. Undiagnosed maternal
+ 
+vitamin B12 deficiency may be associated with adverse
+ 
+fetal/neonatal outcomes, such as neural tube defects and
+ 
+intrauterine growth restriction.
+ 
+ 
+ 
+Quest Diagnostics utilized Multi-Modal Decomposition (MMD)
+ 
+analysis to establish first and second trimester-specific
+ 
+MMA reference intervals in pregnancy, as given below:
+ 
+ 
+ 
+MMA, First trimester (<13 wks gestation): 58-167 nmol/L
+ 
+MMA, Second trimester (13-23 wks gestation): 63-241 nmol/L
+ 
+ 
+ 
+This test was developed and its analytical performance
+ 
+characteristics have been determined by Quest Diagnostics.
+ 
+It has not been cleared or approved by the FDA. This assay
+ 
+has been validated pursuant to the CLIA regulations and is
+ 
+used for clinical purposes.
+CBC (INCLUDES DIFF/PLT)
+NW
+ 
+WHITE BLOOD CELL COUNT
+7.9
+3.8-10.8 Thousand/uL
+ 
+ 
+RED BLOOD CELL COUNT
+5.05
+4.20-5.80 Million/uL
+ 
+ 
+HEMOGLOBIN
+15.1
+13.2-17.1 g/dL
+ 
+ 
+HEMATOCRIT
+45.1
+38.5-50.0 %
+ 
+ 
+MCV
+89.3
+80.0-100.0 fL
+ 
+ 
+MCH
+29.9
+27.0-33.0 pg
+ 
+ 
+MCHC
+33.5
+32.0-36.0 g/dL
+ 
+ 
+For adults, a slight decrease in the calculated MCHC
+ 
+value (in the range of 30 to 32 g/dL) is most likely
+ 
+not clinically significant; however, it should be
+ 
+interpreted with caution in correlation with other
+ 
+red cell parameters and the patient's clinical
+ 
+condition.
+ 
+RDW
+12.3
+11.0-15.0 %
+ 
+ 
+PLATELET COUNT
+205
+140-400 Thousand/uL
+ 
+ 
+MPV
+11.1
+7.5-12.5 fL
+ 
+ 
+ABSOLUTE NEUTROPHILS
+5554
+1500-7800 cells/uL
+ 
+PAGE 3 OF 12
+
+=== PAGE 4 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+Test Name
+In Range
+Out Of Range
+Reference Range
+Lab
+ 
+ABSOLUTE LYMPHOCYTES
+1604
+850-3900 cells/uL
+ 
+ 
+ABSOLUTE MONOCYTES
+529
+200-950 cells/uL
+ 
+ 
+ABSOLUTE EOSINOPHILS
+182
+15-500 cells/uL
+ 
+ 
+ABSOLUTE BASOPHILS
+32
+0-200 cells/uL
+ 
+ 
+NEUTROPHILS
+70.3
+%
+ 
+ 
+LYMPHOCYTES
+20.3
+%
+ 
+ 
+MONOCYTES
+6.7
+%
+ 
+ 
+EOSINOPHILS
+2.3
+%
+ 
+ 
+BASOPHILS
+0.4
+%
+ 
+URINALYSIS, COMPLETE
+NW
+ 
+W/REFLEX TO CULTURE
+ 
+ 
+COLOR
+YELLOW
+YELLOW 
+ 
+ 
+APPEARANCE
+CLEAR
+CLEAR 
+ 
+ 
+SPECIFIC GRAVITY
+1.034
+1.001-1.035 
+ 
+ 
+PH
+6.0
+5.0-8.0 
+ 
+ 
+GLUCOSE
+NEGATIVE
+NEGATIVE 
+ 
+ 
+BILIRUBIN
+NEGATIVE
+NEGATIVE 
+ 
+ 
+KETONES
+TRACE
+NEGATIVE 
+ 
+ 
+OCCULT BLOOD
+NEGATIVE
+NEGATIVE 
+ 
+ 
+PROTEIN
+NEGATIVE
+NEGATIVE 
+ 
+ 
+NITRITE
+NEGATIVE
+NEGATIVE 
+ 
+ 
+LEUKOCYTE ESTERASE
+NEGATIVE
+NEGATIVE 
+ 
+ 
+WBC
+NONE SEEN
+< OR = 5 /HPF
+ 
+ 
+RBC
+NONE SEEN
+< OR = 2 /HPF
+ 
+ 
+SQUAMOUS EPITHELIAL CELLS
+NONE SEEN
+< OR = 5 /HPF
+ 
+ 
+BACTERIA
+NONE SEEN
+NONE SEEN /HPF
+ 
+ 
+HYALINE CAST
+NONE SEEN
+NONE SEEN /LPF
+ 
+ 
+This urine was analyzed for the presence of WBC, 
+ 
+RBC, bacteria, casts, and other formed elements. 
+ 
+Only those elements seen were reported.
+ 
+ 
+ 
+ 
+ REFLEXIVE URINE CULTURE
+ 
+ 
+NW
+ 
+NO CULTURE INDICATED
+IRON AND TOTAL IRON
+NW
+ 
+BINDING CAPACITY
+ 
+ 
+IRON, TOTAL
+178
+50-195 mcg/dL
+ 
+ 
+IRON BINDING CAPACITY
+296
+250-425 mcg/dL (calc)
+ 
+ 
+% SATURATION
+60 H
+20-48 % (calc)
+ 
+ FERRITIN
+34 L
+38-380 ng/mL
+NW
+ RHEUMATOID FACTOR
+<10
+<14 IU/mL
+NW
+ CORTISOL, TOTAL
+7.7
+mcg/dL
+NW
+ 
+Reference Range: For 8 a.m.(7-9 a.m.) Specimen: 4.0-22.0
+ 
+Reference Range: For 4 p.m.(3-5 p.m.) Specimen: 3.0-17.0
+ 
+  * Please interpret above results accordingly *
+ 
+ 
+ FSH
+4.9
+1.4-12.8 mIU/mL
+NW
+ INSULIN
+3.3
+uIU/mL 
+NW
+ 
+      Reference Range  < or = 18.4
+ 
+       
+ 
+      Risk:
+ 
+      Optimal          < or = 18.4
+ 
+      Moderate         NA
+ 
+      High             >18.4
+ 
+       
+ 
+      Adult cardiovascular event risk category
+PAGE 4 OF 12
+
+=== PAGE 5 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+Test Name
+In Range
+Out Of Range
+Reference Range
+Lab
+ 
+      cut points (optimal, moderate, high)
+ 
+      are based on Insulin Reference Interval
+ 
+      studies performed at Quest Diagnostics
+ 
+      in 2022.
+ 
+       
+ LH
+5.5
+1.5-9.3 mIU/mL
+NW
+ PROLACTIN
+7.3
+2.0-18.0 ng/mL
+NW
+ ESTRADIOL
+30
+< OR = 39 pg/mL
+NW
+ 
+Reference range established on post-pubertal patient
+ 
+population. No pre-pubertal reference range
+ 
+established using this assay. For any patients for
+ 
+whom low Estradiol levels are anticipated (e.g. males,
+ 
+pre-pubertal children and hypogonadal/post-menopausal 
+ 
+females), the Quest Diagnostics Nichols Institute
+ 
+Estradiol, Ultrasensitive, LCMSMS assay is recommended
+ 
+(order code 30289).
+ 
+  
+ 
+Please note: patients being treated with the drug 
+ 
+fulvestrant (Faslodex(R)) have demonstrated significant 
+ 
+interference in immunoassay methods for estradiol 
+ 
+measurement. The cross reactivity could lead to falsely 
+ 
+elevated estradiol test results leading to an 
+ 
+inappropriate clinical assessment of estrogen status.
+ 
+Quest Diagnostics order code 30289-Estradiol, 
+ 
+Ultrasensitive LC/MS/MS demonstrates negligible cross 
+ 
+reactivity with fulvestrant.
+ SEX HORMONE BINDING
+NW
+GLOBULIN
+25
+10-50 nmol/L
+ 
+ DHEA SULFATE
+159
+74-617 mcg/dL
+EN
+PSA, TOTAL WITH REFLEX TO
+NW
+ 
+PSA, FREE
+ 
+ 
+PSA, TOTAL
+0.4
+< OR = 4.0 ng/mL
+ 
+ 
+The Total PSA value from this assay system is 
+ 
+standardized against the equimolar PSA standard. 
+ 
+The test result will be approximately 20% higher 
+ 
+when compared to the WHO-standardized Total PSA 
+ 
+(Siemens assay). Comparison of serial PSA results 
+ 
+should be interpreted with this fact in mind.
+ 
+ 
+ 
+PSA was performed using the Beckman Coulter 
+ 
+Immunoassay method. Values obtained from different 
+ 
+assay methods cannot be used interchangeably. PSA 
+ 
+levels, regardless of value, should not be 
+ 
+interpreted as absolute evidence of the presence or 
+ 
+absence of disease.
+ MERCURY, BLOOD
+<4
+<OR=10 mcg/L
+EN
+ 
+See Endnote 1
+ ZINC
+98
+60-130 mcg/dL
+EN
+ 
+ 
+ 
+This test was developed and its analytical performance 
+ 
+characteristics have been determined by Quest 
+ 
+Diagnostics. It has not been cleared or approved by the
+ 
+FDA. This assay has been validated pursuant to the CLIA 
+ 
+regulations and is used for clinical purposes.
+ 
+ 
+PAGE 5 OF 12
+
+=== PAGE 6 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+Test Name
+In Range
+Out Of Range
+Reference Range
+Lab
+ LEAD (VENOUS)
+<1.0
+<3.5 mcg/dL
+EN
+ 
+See Endnote 1
+ABO GROUP AND RH TYPE
+NW
+ 
+ABO GROUP
+A
+ 
+ 
+ 
+RH TYPE
+RH(D) POSITIVE
+ 
+ 
+ 
+ 
+ 
+For additional information, please refer to 
+ 
+http://education.QuestDiagnostics.com/faq/FAQ111 
+ 
+(This link is being provided for informational/
+ 
+educational purposes only.)
+TESTOSTERONE, FREE
+Z3E
+ 
+(DIALYSIS) AND TOTAL,MS
+ 
+ 
+TESTOSTERONE, TOTAL, MS
+648
+250-1100 ng/dL
+ 
+ 
+ 
+ 
+For additional information, please refer to
+ 
+https://education.questdiagnostics.com/faq/FAQ165
+ 
+(This link is being provided for informational/educational purposes only.)
+ 
+(Note)
+ 
+ 
+ 
+This test was developed and its analytical performance 
+ 
+characteristics have been determined by medfusion. It has 
+ 
+not been cleared or approved by the FDA. This assay has 
+ 
+been validated pursuant to the CLIA regulations and is 
+ 
+used for clinical purposes.
+ 
+ 
+ 
+ 
+ 
+TESTOSTERONE, FREE
+129.2
+35.0-155.0 pg/mL
+ 
+ 
+(Note)
+ 
+This test was developed and its analytical performance 
+ 
+characteristics have been determined by medfusion. It has 
+ 
+not been cleared or approved by the FDA. This assay has 
+ 
+been validated pursuant to the CLIA regulations and is 
+ 
+used for clinical purposes.
+ 
+ 
+ 
+MDF
+ 
+med fusion
+ 
+2501 South State Highway 121,Suite 1100
+ 
+Lewisville TX 75067
+ 
+972-966-7300
+ 
+Ithiel James L. Frame, MD, PhD
+Endnote 1
+ 
+This test was developed and its analytical performance 
+characteristics have been determined by Quest 
+Diagnostics. It has not been cleared or approved by the
+FDA. This assay has been validated pursuant to the CLIA 
+regulations and is used for clinical purposes.
+PAGE 6 OF 12
+
+=== PAGE 7 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+ 
+Endocrinology
+  
+ 
+Test Name
+Result
+Reference Range
+Lab
+ 
+VITAMIN D,25-OH,TOTAL,IA 
+51
+30-100 ng/mL
+NW
+Vitamin D Status         25-OH Vitamin D:
+ 
+Deficiency:                    <20 ng/mL
+Insufficiency:             20 - 29 ng/mL
+Optimal:                 > or = 30 ng/mL
+ 
+For 25-OH Vitamin D testing on patients on D2-supplementation and patients for whom quantitation of D2 and D3 fractions is required, the
+QuestAssureD(TM) 25-OH VIT D, (D2,D3), LC/MS/MS is recommended: order code 92888 (patients >2yrs).
+For additional information, please refer to http://education.QuestDiagnostics.com/faq/FAQ199 (This link is being provided for informational/ educational
+purposes only.)
+Physician Comments:
+ 
+ 
+Immunology
+  
+ 
+Test Name
+Result
+Reference Range
+Lab
+ 
+ANA SCREEN, IFA, W/REFL  TITER AND PATTERN  
+EN
+ANA SCREEN, IFA 
+POSITIVE  
+NEGATIVE
+ANA IFA is a first line screen for detecting the presence of up to approximately 150 autoantibodies in various autoimmune diseases. A positive ANA IFA
+result is suggestive of autoimmune disease and reflexes to titer and pattern. Further laboratory testing may be considered if clinically indicated.
+ 
+For additional information, please refer to http://education.QuestDiagnostics.com/faq/FAQ177 (This link is being provided for informational/ educational
+purposes only.)
+ANTINUCLEAR ANTIBODIES  TITER AND PATTERN  
+EN
+ANA TITER 
+1:40  H
+titer
+A low level ANA titer may be present in pre-clinical autoimmune diseases and normal individuals.
+ 
+                Reference Range
+                <1:40        Negative
+                1:40-1:80    Low Antibody Level
+                >1:80        Elevated Antibody Level
+ANA PATTERN 
+Nuclear, Speckled  
+ 
+Speckled pattern is associated with mixed connective tissue disease (MCTD), systemic lupus erythematosus (SLE), Sjogren's syndrome, dermatomyositis,
+and systemic sclerosis/polymyositis overlap.
+ 
+AC-2,4,5,29: Speckled
+ 
+International Consensus on ANA Patterns (https://doi.org/10.1515/cclm-2018-0052)
+ANA TITER 
+1:160  H
+titer
+                Reference Range
+                <1:40        Negative
+                1:40-1:80    Low Antibody Level
+                >1:80        Elevated Antibody Level
+ANA PATTERN 
+Nuclear, Centromere  
+ 
+Centromere pattern is associated with limited cutaneous systemic sclerosis, CREST (Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly,
+Telangiectasia), primary biliary cholangitis (PBC), and other autoimmune diseases.
+ 
+AC-3: Centromere
+ 
+International Consensus on ANA Patterns (https://doi.org/10.1515/cclm-2018-0052)
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+PAGE 7 OF 12
+
+=== PAGE 8 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+ 
+Immunology
+  
+ 
+Test Name
+Result
+Reference Range
+Lab
+ 
+ANA TITER 
+1:40  H
+titer
+A low level ANA titer may be present in pre-clinical autoimmune diseases and normal individuals.
+ 
+                Reference Range
+                <1:40        Negative
+                1:40-1:80    Low Antibody Level
+                >1:80        Elevated Antibody Level
+ANA PATTERN 
+Cytoplasmic  
+ 
+The presence of cytoplasmic fluorescence was noted on the HEp-2 slide. Other reactivities (e.g., anti- mitochondrial antibodies or anti-smooth muscle
+antibodies) may be responsible for this fluorescence. The clinical significance of this finding is uncertain. Clinical correlation is recommended.
+ 
+AC-15 to AC-23: Cytoplasmic
+ 
+International Consensus on ANA Patterns (https://doi.org/10.1515/cclm-2018-0052)
+Physician Comments:
+ 
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+PAGE 8 OF 12
+
+=== PAGE 9 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+Cardio IQ®
+Test Name
+Current 
+Result & Risk 
+Optimal
+Non-Optimal
+ 
+Risk/Reference Interval
+ 
+ 
+ 
+Units
+ 
+Historical 
+Result & Risk 
+ 
+ 
+ 
+ 
+  
+ 
+CHOLESTEROL, TOTAL
+ 
+ 
+<200
+N/A
+>=200
+mg/dL
+ 
+HDL CHOLESTEROL
+ 
+ 
+>=40
+N/A
+<40
+mg/dL
+ 
+TRIGLYCERIDES
+ 
+ 
+<150
+150-199
+>=200
+mg/dL
+ 
+LDL-CHOLESTEROL
+ 
+ 
+<100
+100-129
+>129
+mg/dL
+(calc)
+ 
+CHOL/HDLC RATIO
+ 
+ 
+<=3.5
+3.6-5.0
+>5.0
+calc
+ 
+NON-HDL CHOLESTEROL
+ 
+ 
+<130
+130-189
+>=190
+mg/dL
+(calc)
+ 
+ 
+ 
+  
+ 
+LDL PARTICLE NUMBER
+ 
+ 
+<1138
+1138-1409
+>1409
+nmol/L  
+LDL SMALL
+ 
+ 
+<142
+142-219
+>219
+nmol/L  
+LDL MEDIUM
+ 
+ 
+<215
+215-301
+>301
+nmol/L  
+HDL LARGE
+ 
+ 
+>6729
+6729-5353
+<5353
+nmol/L  
+LDL PATTERN
+ 
+ 
+A
+N/A
+B
+Pattern  
+LDL PEAK SIZE
+ 
+ 
+>222.9
+222.9-217.4
+<217.4
+Angstrom  
+ 
+ 
+  
+ 
+APOLIPOPROTEIN B
+ 
+ 
+<90
+90-129
+>=130
+mg/dL
+ 
+LIPOPROTEIN (a)
+ 
+ 
+<75
+75-125
+>125
+nmol/L  
+ 
+ 
+  
+ 
+OmegaCheck® Whole Blood:
+(EPA+DPA+DHA)
+ 
+ 
+>=5.5
+3.8-5.4
+<=3.7
+% by wt  
+ARACHIDONIC ACID/EPA  
+RATIO
+24.0
+ 
+ 
+3.7-40.7 
+ 
+ 
+PAGE 9 OF 12
+
+=== PAGE 10 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+Test Name
+Current 
+Result & Risk 
+Optimal
+Non-Optimal
+ 
+Risk/Reference Interval
+ 
+ 
+ 
+Units
+ 
+Historical 
+Result & Risk 
+ 
+ 
+OMEGA-6/OMEGA-3 RATIO
+10.4
+ 
+ 
+3.7-14.4 
+ 
+ 
+OMEGA-3 TOTAL
+3.8
+ 
+ 
+% by wt  
+EPA
+0.5
+ 
+ 
+0.2-2.3 
+% by wt  
+DPA
+1.2
+ 
+ 
+0.8-1.8 
+% by wt  
+DHA
+2.2
+ 
+ 
+1.4-5.1 
+% by wt  
+OMEGA-6 TOTAL
+39.9
+ 
+ 
+% by wt  
+ARACHIDONIC ACID
+11.9
+ 
+ 
+8.6-15.6 
+% by wt  
+LINOLEIC ACID
+24.7
+ 
+ 
+18.6-29.5 
+% by wt  
+For details on reference ranges please refer to the reference range/comment section of the report.
+Medical Information For Healthcare Providers: If you have questions about any of the tests in our Cardio IQ offering, please call
+Client Services at our Quest Diagnostics-Cleveland HeartLab Cardiometabolic Center of Excellence. They can be reached at 866.358.9828,
+option 1 to arrange a consult with our clinical education team.
+PAGE 10 OF 12
+
+=== PAGE 11 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+Reference Range/Comments
+ Analyte Name
+In Range
+Out Range
+Reference Range
+Lab
+ 
+ EPA+DPA+DHA
+3.8 
+>5.4 % by wt
+Z4M
+ 
+ This test was developed and its analytical performance characteristics have been determined by Quest Diagnostics Cardiometabolic Center of Excellence at Cleveland
+HeartLab. It has not been cleared or approved by the U.S. Food and Drug Administration. This assay has been validated pursuant to the CLIA regulations and is used
+for clinical purposes. Increasing blood levels of long-chain n-3 fatty acids are associated with a lower risk of sudden cardiac death (1). Based on the top (75th percentile)
+and bottom (25th percentile) quartiles of the CHL reference population, the following relative risk categories were established for OmegaCheck: A cut-off of >=5.5% by
+wt defines a population at optimal relative risk, 3.8-5.4% by wt defines a population at moderate relative risk, and <=3.7% by wt defines a population at high relative risk
+of sudden cardiac death. The totality of the scientific evidence demonstrates that when consumption of fish oils is limited to 3 g/day or less of EPA and DHA, there is no
+significant risk for increased bleeding time beyond the normal range. A daily dosage of 1 gram of EPA and DHA lowers the circulating triglycerides by about 7-10% within 2
+to 3 weeks. (Reference: 1-Albert et al. NEJM. 2002; 346: 1113-1118).
+ 
+ HDL LARGE
+4050 
+>6729 nmol/L
+Z4M
+ 
+ Relative Risk: Optimal >6729; Moderate 6729-5353; High <5353. Male Reference Range: 4334 to 10815 nmol/L; Female Reference Range: 5038 to 17886 nmol/L.
+ 
+ LDL MEDIUM
+304 
+<215 nmol/L
+Z4M
+ 
+ Relative Risk: Optimal <215; Moderate 215-301; High >301. Male Reference Range: 167 to 485 nmol/L; Female Reference Range: 121 to 397 nmol/L.
+ 
+ LDL PARTICLE NUMBER
+1217 
+<1138 nmol/L
+Z4M
+ 
+ Relative Risk: Optimal <1138; Moderate 1138-1409; High >1409. Male and Female Reference Range: 1016 to 2185 nmol/L.
+ 
+ LDL PATTERN
+B 
+A Pattern
+Z4M
+ 
+ Relative Risk: Optimal Pattern A; High Pattern B. Reference Range: Pattern A.
+ 
+ LDL PEAK SIZE
+216.7 
+>222.9 Angstrom
+Z4M
+ 
+ This test was developed and its analytical performance characteristics have been determined by Quest Diagnostics Cardiometabolic Center of Excellence at Cleveland
+HeartLab. It has not been cleared or approved by the U.S. Food and Drug Administration. This assay has been validated pursuant to the CLIA regulations and is
+used for clinical purposes. Relative Risk: Optimal >222.9; Moderate 222.9-217.4; High <217.4. Male and Female Reference Range: 216 to 234.3 Angstrom. Adult
+cardiovascular event risk category cut points (optimal, moderate, high) are based on an adult U.S. reference population plus two large cohort study populations.
+Association between lipoprotein subfractions and cardiovascular events is based on Musunuru et al. ATVB.2009;29:1975. For additional information, please refer to http://
+education.QuestDiagnostics.com/faq/FAQ134 (This link is being provided for informational/educational purposes only.)
+ 
+ LDL SMALL
+270 
+<142 nmol/L
+Z4M
+ 
+ Relative Risk: Optimal <142; Moderate 142-219; High >219. Male Reference Range: 123 to 441 nmol/L; Female Reference Range: 115 to 386 nmol/L.
+ 
+ APOLIPOPROTEIN B
+85
+<90 mg/dL
+Z4M
+ 
+ Reference Range    <90
+ 
+Risk Category:
+Optimal         <90
+Moderate        90-129
+High            > or = 130
+ 
+A desirable treatment target may be <80 mg/dL or lower
+depending on the risk category of the patient including
+patients on lipid lowering therapies, patients with ASCVD,
+diabetes with >1 risk factors, Stage 3 or greater CKD with
+albuminuria, or  heterozygous familial
+hypercholesterolemia. ApoB relative risk category cut
+points are based on AACE/ACE and ACC/AHA recommendations
+(Grundy SM, et al. 2019. doi:10.1016/j.jacc.2018.11.002;
+Handelsman Y, et al. 2020. doi:10.4158/CS-2020-0490). 
+ 
+PAGE 11 OF 12
+
+=== PAGE 12 ===
+ 
+ 
+Report Status: Final
+ 
+ROETH, EVERETT
+Patient Information
+Specimen Information
+Client Information
+ROETH, EVERETT
+DOB: 06/24/1997
+AGE: 28
+Gender:
+M 
+Fasting: Y
+Patient ID: F22E5B56 
+Health ID: 8573031648184914 
+Specimen:
+OZ998163E
+Collected:
+08/21/2025 / 10:26 PDT
+Received:
+08/22/2025 / 03:19 PDT
+Reported:
+09/04/2025 / 23:41 PDT
+Client #: 73929412
+DAMASCO, LEO
+CLIENT SERVICES: 1-866-MYQUEST
+SPECIMEN: OZ998163E
+Quest, Quest Diagnostics, the associated logo and all associated Quest Diagnostics marks are the trademarks of Quest Diagnostics.
+Reference Range/Comments
+ Analyte Name
+In Range
+Out Range
+Reference Range
+Lab
+ 
+ ARACHIDONIC ACID
+11.9
+8.6-15.6 % by wt
+Z4M
+ 
+ ARACHIDONIC ACID/EPA   RATIO
+24.0
+3.7-40.7
+Z4M
+ 
+ CHOL/HDLC RATIO
+3.4
+<5.0 calc
+Z4M
+ 
+ CHOLESTEROL, TOTAL
+158
+<200 mg/dL
+Z4M
+ 
+ DHA
+2.2
+1.4-5.1 % by wt
+Z4M
+ 
+ DPA
+1.2
+0.8-1.8 % by wt
+Z4M
+ 
+ EPA
+0.5
+0.2-2.3 % by wt
+Z4M
+ 
+ HDL CHOLESTEROL
+46
+>39 mg/dL
+Z4M
+ 
+ LDL-CHOLESTEROL
+97
+<100 mg/dL (calc)
+Z4M
+ 
+ Desirable range <100 mg/dL for primary prevention; <70 mg/dL for patients with CHD or diabetic patients with >= 2 CHD risk factors. LDL-C is now calculated using the
+Martin-Hopkins calculation, which is a validated novel method providing better accuracy than the Friedewald equation in the estimation of LDL-C. Martin SS et al. JAMA.
+2013;310(19): 2061-2068 (http://education.QuestDiagnostics.com/faq/FAQ164)
+ 
+ LINOLEIC ACID
+24.7
+18.6-29.5 % by wt
+Z4M
+ 
+ LIPOPROTEIN (a)
+<10
+<75 nmol/L
+Z4M
+ 
+ Risk: Optimal <75 nmol/L; Moderate 75-125 nmol/L; High >125 nmol/L. Cardiovascular event risk category cut points (optimal, moderate, high) are based on Tsimika S.
+JACC 2017;69:692-711.
+ 
+ NON HDL CHOLESTEROL
+112
+<130 mg/dL (calc)
+Z4M
+ 
+ For patients with diabetes plus 1 major ASCVD risk factor, treating to a non-HDL-C goal of <100 mg/dL (LDL-C of <70 mg/dL) is considered a therapeutic option.
+ 
+ OMEGA-3 TOTAL
+3.8
+% by wt
+Z4M
+ 
+ OMEGA-6 TOTAL
+39.9
+% by wt
+Z4M
+ 
+ Cleveland HeartLab measures a number of omega-6 fatty acids with AA and LA being the two most abundant forms reported.
+ 
+ OMEGA-6/OMEGA-3 RATIO
+10.4
+3.7-14.4
+Z4M
+ 
+ TRIGLYCERIDES
+68
+<150 mg/dL
+Z4M
+ 
+ 
+PERFORMING SITE:
+EN
+QUEST DIAGNOSTICS-WEST HILLS, 8401 FALLBROOK AVENUE, WEST HILLS, CA 91304-3226 Laboratory Director: THOMAS MCDONALD, MD, CLIA: 05D0642827
+EZ
+QUEST DIAGNOSTICS/NICHOLS SJC, 33608 ORTEGA HWY, SAN JUAN CAPISTRANO, CA 92675-2042 Laboratory Director: IRINA MARAMICA,MD,PHD,MBA, CLIA: 05D0643352
+NW
+QUEST DIAGNOSTICS-SEATTLE, 1737 AIRPORT WAY, S. SUITE 200, SEATTLE, WA 98134-1636 Laboratory Director: ROGER W GRAHAM,MD, CLIA: 50D0633094
+Z3E
+MEDFUSION, 2501 SOUTH STATE HIGHWAY 121 SUITE 1100, LEWISVILLE, TX 75067-8065 Laboratory Director: ITHIEL J FRAME,MD,PHD, CLIA: 45D2004217
+Z4M
+CLEVELAND HEARTLAB INC, 6701 CARNEGIE AVENUE SUITE 500, CLEVELAND, OH 44103-4623 Laboratory Director: M. QASIM ANSARI, MD , CLIA: 36D1032987
+PAGE 12 OF 12
+

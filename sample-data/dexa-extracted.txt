@@ -1,0 +1,346 @@
+=== PAGE 1 ===
+DEXAFIT - ORANGE COUNTY
+www.DexaFit.com
+(949) 464-8697
+Page: 1 of 4
+Name: Roeth, Everett
+Birth Date: 06/24/1997                                    Measure Date: 01/23/2026
+Age: 28.5
+Height: 72.0 in.                                                   Measure Time: 1:49:52 PM
+Gender: Male
+Weight: 155.0 lbs.
+DexaFit Summary Analysis Page
+Summary - Total Body Composition Analysis
+The total body composition table summarizes the metrics of your entire body and displays your Total Body Fat %, Total Mass (lbs), Fat Tissue
+(lbs), Lean Tissue (lbs), Bone Mineral Content (BMC), and Visceral Fat (lbs).
+Measured Date
+Total Body Fat %
+Total Mass
+Fat Tissue
+Lean Tissue
+BMC
+Visceral Fat
+01/23/2026
+15.1%
+156.6 lbs
+23.6 lbs
+126.0 lbs
+6.9 lbs
+0.33 lbs
+Lean Mass Balance
+ Lean mass balance is a comparison of your body's right to left lean mass symmetry. A lean mass difference close to zero indicates a balance of
+muscle. An injury, non-symmetrical training, or a health condition may cause disproportionate lean mass differences, but only your physican can
+determine if a health condition is the related cause.
+Region
+Measured Date
+Lean Mass Right
+Lean Mass Left
+Lean Mass Difference
+Arms:
+01/23/2026
+9.0 lbs
+8.1 lbs
+0.9 lbs
+Legs:
+01/23/2026
+22.2 lbs
+20.3 lbs
+1.9 lbs
+Total:
+01/23/2026
+62.5 lbs
+63.6 lbs
+-1.1 lbs
+
+=== PAGE 2 ===
+DEXAFIT - ORANGE COUNTY
+www.DexaFit.com
+(949) 464-8697
+Page: 1 of 4
+Name: Roeth, Everett
+Birth Date: 06/24/1997                                  Measure Date: 01/23/2026
+Age: 28.5
+Height: 72.0 in.                                                 Measured Time: 1:49:52 PM
+Gender: Male
+Weight: 155.0 lbs.
+BODY COMPOSITION: Total Body (Enhanced Analysis)
+Region
+Body Fat (%)
+Fat (lbs)
+Lean (lbs)
+BMC (lbs)
+Total Mass (lbs)
+Arms
+13.9
+2.9
+17.0
+1.1
+21.0
+Arm Right
+13.8
+1.5
+9.0
+0.6
+11.1
+Arm Left
+14.1
+1.4
+8.1
+0.5
+10.0
+Arms Diff.
+-0.4
+0.1
+0.9
+0.0
+1.1
+Legs
+13.9
+7.3
+42.5
+2.7
+52.4
+Leg Right
+13.4
+3.6
+22.2
+1.4
+27.2
+Leg Left
+14.3
+3.6
+20.3
+1.4
+25.2
+Legs Diff.
+-0.9
+0.0
+1.9
+0.0
+2.0
+Trunk
+15.9
+11.4
+58.6
+1.9
+71.9
+Trunk Right
+16.8
+5.7
+27.4
+0.9
+34.1
+Trunk Left
+15.1
+5.7
+31.2
+1.0
+37.9
+Trunk Diff.
+1.7
+0.0
+-3.7
+-0.1
+-3.8
+Android
+14.1
+1.3
+7.6
+0.1
+9.0
+Gynoid
+15.3
+3.7
+19.8
+0.7
+24.2
+Total
+15.1
+23.6
+126.0
+6.9
+156.6
+Total Right
+15.3
+11.9
+62.5
+3.4
+77.8
+Total Left
+14.9
+11.8
+63.6
+3.5
+78.9
+Total Diff.
+0.3
+0.1
+-1.1
+-0.1
+-1.1
+Adipose Tissue
+1  Visceral
+2 Subcutaneous
+The Android region is that of the abdomen, and often the body type with increased fat in this area is
+described as "apple shaped." The Gynoid region is that around the hips and thighs and often the
+body type with increased fat in this area is described as "pear shaped." Understanding where fat is
+stored on the body is recognized as an important predictor of the potential health risks of obesity.
+CoreScan estimates the VAT (Visceral Adipose Tissue) content within the android region, VAT is a
+specific type of fat that is associated with several types of metabolic diseases such as obesity,
+metabolic syndrome, and type 2 diabetes. CoreScan results have been validated for adults
+between ages 18-90, and with a BMI in the range of 18.5-40.
+Android/Gynoid Ratio
+Measure Date
+Android Body Fat % Gynoid Body Fat %
+A/G Ratio
+01/23/2026
+14.1%
+15.3%
+0.91
+Estimated Visceral Adipose Tissue
+Measure Date
+Android Fat Mass
+Visceral Fat Mass
+01/23/2026
+1.3 lbs
+0.33 lbs
+0.33 lbs9.55 in³
+
+=== PAGE 3 ===
+DEXAFIT - ORANGE COUNTY
+www.DexaFit.com
+(949) 464-8697
+Page: 1 of 4
+Name: Roeth, Everett
+Birth Date: 06/24/1997                                  Measure Date: 01/23/2026
+Age: 28.5
+Height: 72.0 in.                                                 Measured Time: 1:49:52 PM
+Gender: Male
+Weight: 155.0 lbs.
+Total Body Bone Density
+Densitometry: USA (Combined NHANES/Lunar) (Enhanced Analysis)
+Region
+BMD
+(g/cm²)
+YA
+T-score
+AM
+Z-score
+Head
+2.051
+-
+-
+Arms
+0.940
+-
+-
+Legs
+1.461
+-
+-
+Trunk
+1.093
+-
+-
+Ribs
+0.880
+-
+-
+Spine
+1.135
+-
+-
+Pelvis
+1.243
+-
+-
+Total
+1.293
+0.9
+1.3
+
+=== PAGE 4 ===
+DEXAFIT - ORANGE COUNTY
+www.DexaFit.com
+(949) 464-8697
+Page: 1 of 4
+Region
+Measured Date
+Age
+Body Fat %
+%Change vs.
+Previous
+%Change vs.
+Baseline
+Arms:
+01/23/2026
+28.5
+13.9
+-
+baseline
+Legs:
+01/23/2026
+28.5
+13.9
+-
+baseline
+Trunk:
+01/23/2026
+28.5
+15.9
+-
+baseline
+Android:
+01/23/2026
+28.5
+14.1
+-
+baseline
+Gynoid:
+01/23/2026
+28.5
+15.3
+-
+baseline
+Total:
+01/23/2026
+28.5
+15.1
+-
+baseline
+Body Composition History
+Change vs.
+Change vs.
+Change vs.
+Measured
+Date
+Total
+Mass
+(lbs)
+Baseline
+(lbs)
+Previous
+(lbs)
+Fat Mass
+(lbs)
+Baseline
+(lbs)
+ Previous
+(lbs)
+Lean Mass
+(lbs)
+Baseline
+(lbs)
+Previous
+(lbs)
+01/23/2026
+156.6
+baseline
+-
+23.6
+baseline
+-
+126.0
+baseline
+-
+
