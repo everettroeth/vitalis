@@ -101,7 +101,7 @@ These four colors form the Vitalis brand foundation. They map to the natural wor
 | **Vitalis Sage** | `#7B9E8B` | 123, 158, 139 | Primary brand color, primary CTA, thriving status, charts |
 | **Warm Sand** | `#C4A87A` | 196, 168, 122 | Secondary brand, warm accents, watch status |
 | **Deep Fern** | `#4A6B5A` | 74, 107, 90 | Dark text on light, hover states, sidebar backgrounds |
-| **Clay** | `#B87355` | 184, 115, 85 | CTAs, highlights, concern status, energy/warmth |
+| **Clay** | `#A5623F` | 184, 115, 85 | CTAs, highlights, concern status, energy/warmth |
 
 **Contrast Ratios (WCAG AA):**
 - Sage on Cream (#FAFAF5): 3.2:1 — use for UI elements, not body text
@@ -146,7 +146,7 @@ These are NOT red/yellow/green. They use the brand palette itself to express hea
 |--------|-------|-----|------------|--------|-------|
 | **Thriving** | Vitalis Sage | `#7B9E8B` | `#EDF4F0` | `#BDD6CA` | In range, improving, optimal |
 | **Watch** | Warm Sand | `#C4A87A` | `#F7F2EA` | `#E0CAA8` | Trending toward boundary, note this |
-| **Concern** | Clay | `#B87355` | `#F5EDEA` | `#D9A88A` | Out of range, needs attention |
+| **Concern** | Clay | `#A5623F` | `#F5EDEA` | `#D9A88A` | Out of range, needs attention |
 | **Unknown** | Mid Sand | `#C4B8AA` | `#F2EDE4` | `#E5DDD2` | No reference range, insufficient data |
 
 **Critical Design Rule:** Never render health alerts in hospital red (`#FF0000`) or pure yellow (`#FFFF00`). Status is communicated through the same warm tones the user has already learned to trust. The emotional register stays calm.
@@ -183,7 +183,8 @@ Brand accent colors (Sage, Sand, Clay, Moss) remain consistent across modes — 
   --vt-sage:         #7B9E8B;
   --vt-sand:         #C4A87A;
   --vt-fern:         #4A6B5A;
-  --vt-clay:         #B87355;
+  --vt-watch-text: #8A6D3A;  /* Darkened sand for text — passes AA on cream */
+    --vt-clay:         #A5623F;
   --vt-moss:         #9BAB82;
   --vt-amber:        #D4935A;
   --vt-rose:         #C49AAE;
@@ -211,7 +212,7 @@ Brand accent colors (Sage, Sand, Clay, Moss) remain consistent across modes — 
   --vt-watch:            #C4A87A;
   --vt-watch-bg:         #F7F2EA;
   --vt-watch-border:     #E0CAA8;
-  --vt-concern:          #B87355;
+  --vt-concern:          #A5623F;
   --vt-concern-bg:       #F5EDEA;
   --vt-concern-border:   #D9A88A;
 
@@ -276,7 +277,7 @@ module.exports = {
           'sand-light': '#E5DDD2',
           'sand-mid':   '#C4B8AA',
           fern:       '#4A6B5A',
-          clay:       '#B87355',
+          clay:       '#A5623F',
           moss:       '#9BAB82',
           amber:      '#D4935A',
           rose:       '#C49AAE',
@@ -289,7 +290,7 @@ module.exports = {
           'thriving-bg': '#EDF4F0',
           watch:      '#C4A87A',
           'watch-bg': '#F7F2EA',
-          concern:    '#B87355',
+          concern:    '#A5623F',
           'concern-bg': '#F5EDEA',
         }
       },
@@ -1005,7 +1006,7 @@ When comparing wearables (Garmin vs. Oura vs. WHOOP):
 - Source 1 (Garmin): `#7B9E8B` (Sage)
 - Source 2 (Oura): `#C4A87A` (Sand)
 - Source 3 (WHOOP): `#9BAB82` (Moss)
-- Source 4 (Apple Watch): `#B87355` (Clay)
+- Source 4 (Apple Watch): `#A5623F` (Clay)
 
 #### Line Chart
 
@@ -1202,7 +1203,8 @@ Hover: `bg-vt-surface border-vt-border-strong`
 #### Destructive Button (rare — only for delete/disconnect)
 ```css
 background: var(--vt-concern-bg);
-color: var(--vt-clay);
+color: var(--vt-watch-text: #8A6D3A;  /* Darkened sand for text — passes AA on cream */
+    --vt-clay);
 border: 1px solid var(--vt-concern-border);
 ```
 Hover: `bg-vt-clay text-white`
@@ -1915,3 +1917,53 @@ Radius:
 
 *Design system locked pending QA review.*
 *Next: Phase 1 — Data Architecture (parallel)*
+
+
+## Icon System
+
+**Library:** [Lucide Icons](https://lucide.dev) — consistent, rounded, open-source SVG icons.
+**Style:** 1.5px stroke weight, rounded caps and joins. Matches Quicksand's soft geometry.
+
+### Navigation Icons (sidebar + mobile bottom nav)
+| View | Lucide Icon | Size |
+|------|-------------|------|
+| Home | `home` | 18px sidebar, 20px mobile |
+| Sleep | `moon` | 18px / 20px |
+| Activity | `activity` | 18px / 20px |
+| Body | `scan` | 18px / 20px |
+| Blood Work | `droplets` | 18px / 20px |
+| Longevity | `dna` | 18px / 20px |
+| Lifting | `dumbbell` | 18px / 20px |
+| Supplements | `pill` | 18px / 20px |
+| Journal | `book-heart` | 18px / 20px |
+| Insights | `sparkles` | 18px / 20px |
+| Settings | `settings` | 18px / 20px |
+
+### Status Icons
+| Status | Lucide Icon | Usage |
+|--------|-------------|-------|
+| Thriving | `trending-up` | Positive trend indicators |
+| Watch | `eye` | Monitoring indicators |
+| Attention | `alert-triangle` | Concern indicators |
+| Insight | `sparkles` | AI-generated insights |
+| Upcoming | `calendar` | Scheduled items |
+
+### Action Icons
+| Action | Lucide Icon |
+|--------|-------------|
+| Upload | `file-up` |
+| Export | `download` |
+| Connect device | `link` |
+| Add entry | `plus` |
+| Edit | `pencil` |
+| Delete | `trash-2` |
+| Search | `search` |
+| Filter | `sliders-horizontal` |
+| Menu (mobile) | `menu` |
+| Close | `x` |
+| Back | `arrow-left` |
+| Notifications | `bell` |
+| Profile | `user` |
+
+### Rule: NO EMOJIS IN UI
+All interface icons use Lucide SVG icons. Emojis are never used in navigation, status indicators, buttons, or any interactive UI element. Emojis may only appear in user-generated content (journal entries, notes).
