@@ -27,34 +27,51 @@ Vitalis is:
 
 ```
 ┌─────────────────────────────────────────────┐
-│          PWA + Mobile (React + Tailwind)     │
-│   Installable · Offline-capable · Mobile-first│
+│       Next.js (React + Tailwind CSS)        │
+│   SSR · PWA · Mobile-first · Vercel hosted   │
 ├─────────────────────────────────────────────┤
 │          API Gateway (FastAPI)               │
-│   Auth · Rate Limiting · Multi-tenant        │
+│   Clerk Auth · Rate Limiting · Multi-tenant  │
 ├──────────────┬──────────────────────────────┤
 │  Ingestion   │  Analysis Engine             │
 │  Service     │  Correlations · Anomalies    │
 │  (pluggable  │  Reports · Insights          │
 │   adapters)  │  Goal Tracking               │
 ├──────────────┴──────────────────────────────┤
-│          PostgreSQL (multi-tenant)           │
-│   Row-level security · Per-user encryption   │
+│   Supabase (PostgreSQL + TimescaleDB)       │
+│   RLS · Realtime · Edge Functions            │
 ├─────────────────────────────────────────────┤
 │          Infrastructure                      │
-│   Fly.io / Railway · S3 · Redis (queues)     │
-│   Stripe (billing) · Resend (email)          │
+│   Vercel (frontend) · Fly.io (FastAPI)       │
+│   Cloudflare R2 (files) · Stripe (billing)   │
+│   Resend (email)                             │
 └─────────────────────────────────────────────┘
 ```
+
+### Tech Stack (Revised)
+
+| Layer | Choice | Why |
+|-------|--------|-----|
+| **Frontend** | Next.js + Tailwind | SSR, routing, API routes, SEO for marketing pages, industry standard for SaaS |
+| **Frontend hosting** | Vercel | Best-in-class for Next.js, free tier generous, global CDN |
+| **Backend API** | FastAPI (Python) | Async, auto-docs, massive ecosystem, fast |
+| **Backend hosting** | Fly.io | Edge deployment, good for API servers |
+| **Database** | Supabase (PostgreSQL + TimescaleDB) | Managed Postgres with RLS built-in, realtime subscriptions, auth option, time-series extension for wearable data |
+| **Auth** | Clerk | OAuth, magic links, MFA, session management -- don't build auth from scratch |
+| **File storage** | Cloudflare R2 | S3-compatible, zero egress fees |
+| **Job queue** | BullMQ + Redis | Retry logic, monitoring, works with FastAPI |
+| **Billing** | Stripe | Industry standard |
+| **Email** | Resend | Developer-friendly transactional email |
 
 ### Key Architecture Shifts (Personal → Product)
 
 | Decision | Personal | Product |
 |----------|----------|---------|
-| Database | SQLite | **PostgreSQL** (multi-tenant, row-level security) |
-| Auth | Profile switcher | **Proper auth** (email/password, OAuth, magic link) |
-| File storage | Local disk | **S3/R2** (scalable, per-user isolated) |
-| Ingestion | Cron scripts | **Job queue** (Redis/BullMQ, retry, monitoring) |
+| Database | SQLite | **Supabase PostgreSQL + TimescaleDB** (managed, multi-tenant, RLS, time-series optimized) |
+| Auth | Profile switcher | **Clerk** (OAuth, magic links, MFA -- never build auth yourself) |
+| Frontend | React + Vite | **Next.js** (SSR, routing, SEO, Vercel hosting) |
+| File storage | Local disk | **Cloudflare R2** (S3-compatible, no egress fees) |
+| Ingestion | Cron scripts | **Job queue** (BullMQ + Redis, retry, monitoring) |
 | PDF parsing | Local LLM call | **Async worker** (queue → parse → confirm → insert) |
 | Billing | N/A | **Stripe** (free tier + paid plans) |
 | Onboarding | Manual | **Guided flow** (connect devices, import history) |
@@ -71,9 +88,9 @@ Each source is a pluggable adapter. Adding new ones never touches core code.
 ### Launch Adapters (v1)
 | Source | Method | Auto-sync |
 |--------|--------|-----------|
-| Garmin | Connect API (OAuth) | ✅ Daily |
+| Garmin | Connect API (OAuth via Garth) | ✅ Every 5 min |
 | Apple Watch | Apple Health via iOS Shortcut or HealthKit web | ✅ Daily |
-| Oura Ring | Oura Cloud API (OAuth) | ✅ Daily |
+| Oura Ring | Oura Cloud API v2 (OAuth2) + Webhooks | ✅ Real-time (webhooks) + 5min polling (5K req/5min limit) |
 | WHOOP | WHOOP API (OAuth) | ✅ Daily |
 | Blood Work (any lab) | PDF upload → AI parse | Manual |
 | DEXA (any provider) | PDF upload → AI parse | Manual |
@@ -238,21 +255,23 @@ The adapter pattern means any developer (or agent) can add a new source without 
 
 **Sub-phase 2A: Core API + Auth**
 - [ ] FastAPI project structure (modular, clean separation)
-- [ ] Auth system (email/password + magic link + OAuth social login)
-- [ ] JWT tokens, refresh tokens, session management
+- [ ] Clerk integration (auth handled externally -- OAuth, magic links, MFA, session management)
+- [ ] Clerk JWT verification middleware for FastAPI
+- [ ] Clerk webhook handler (user.created → provision Supabase row)
 - [ ] Account + user management endpoints
 - [ ] CRUD for all entities
-- [ ] File upload to S3/R2 (PDFs, photos)
+- [ ] File upload to Cloudflare R2 (PDFs, photos)
 - [ ] Rate limiting
 - [ ] Request logging + error tracking
 - [ ] API versioning (v1 from day one)
 - [ ] OpenAPI docs (auto-generated)
 - [ ] CORS, security headers, input sanitization
+- [ ] Supabase client with RLS context (pass user ID from Clerk JWT)
 
 **Sub-phase 2B: Ingestion Pipelines**
-- [ ] Job queue system (Redis + worker processes)
-- [ ] Garmin Connect OAuth flow + daily sync adapter
-- [ ] Oura Cloud OAuth flow + daily sync adapter
+- [ ] Job queue system (BullMQ + Redis)
+- [ ] Garmin Connect OAuth flow + high-frequency sync adapter (every 5 min)
+- [ ] Oura Cloud API v2 OAuth2 flow + webhook receiver + polling adapter (5K req/5min limit)
 - [ ] Apple Health receiver endpoint (iOS Shortcut POST)
 - [ ] WHOOP OAuth flow + daily sync adapter
 - [ ] Strong import (CSV parser)
@@ -260,6 +279,7 @@ The adapter pattern means any developer (or agent) can add a new source without 
 - [ ] Duplicate detection + idempotent writes
 - [ ] Sync status dashboard (per user, per source)
 - [ ] Error handling + retry logic + dead letter queue
+- [ ] TimescaleDB hypertable setup for time-series wearable data
 
 **Sub-phase 2C: AI Document Parsing**
 - [ ] PDF text extraction (pymupdf + pdfplumber)
@@ -269,7 +289,7 @@ The adapter pattern means any developer (or agent) can add a new source without 
   - Epigenetics: extract bio age, pace, telomere, methylation
 - [ ] Confidence scoring per extracted value
 - [ ] Human confirmation flow (parse → preview → confirm/edit → insert)
-- [ ] Original document archival (S3, linked to parsed data)
+- [ ] Original document archival (R2, linked to parsed data)
 - [ ] Support for: Quest, Labcorp, DexaFit, TruDiagnostic (priority)
 - [ ] Extensible to new formats without core changes
 
@@ -282,14 +302,15 @@ The adapter pattern means any developer (or agent) can add a new source without 
 **Duration:** 2 sessions
 
 **Sub-phase 3A: Foundation**
-- [ ] React + Vite + Tailwind + design system tokens
+- [ ] Next.js + Tailwind + design system tokens (Vercel deployment)
 - [ ] PWA manifest + service worker
-- [ ] Auth flows (signup, login, magic link, OAuth)
+- [ ] Clerk auth integration (signup, login, magic link, OAuth -- all handled by Clerk components)
 - [ ] Onboarding wizard (connect devices, set goals, profile setup)
 - [ ] Responsive layout system (mobile-first)
 - [ ] Navigation (bottom tabs mobile, sidebar desktop)
 - [ ] Profile switcher (household accounts)
-- [ ] API client with auth token management
+- [ ] API client with Clerk session token management
+- [ ] Supabase realtime subscriptions for live data updates
 - [ ] Offline caching for recent data
 
 **Sub-phase 3B: Dashboard Views**
@@ -352,20 +373,23 @@ The adapter pattern means any developer (or agent) can add a new source without 
 **Goal:** Production-grade deployment with monitoring and reliability.
 **Duration:** 1 session
 
-- [ ] Dockerfiles (API, worker, frontend — multi-stage builds)
+- [ ] Dockerfiles (API + worker — multi-stage builds)
 - [ ] Docker Compose for local dev
-- [ ] Fly.io deployment (API + worker + Postgres)
-- [ ] S3/R2 bucket for documents and photos
-- [ ] Redis for job queues
+- [ ] Vercel deployment (Next.js frontend — auto from GitHub push)
+- [ ] Fly.io deployment (FastAPI + worker)
+- [ ] Supabase project (PostgreSQL + TimescaleDB + RLS + realtime)
+- [ ] Cloudflare R2 bucket for documents and photos
+- [ ] Redis (Upstash or Fly.io Redis) for job queues
 - [ ] CI/CD pipeline (GitHub Actions)
-- [ ] Database migrations on deploy
-- [ ] Automated backups (daily + PITR)
+- [ ] Database migrations on deploy (Alembic)
+- [ ] Supabase automated backups (daily + PITR included)
 - [ ] Health monitoring + uptime alerts
 - [ ] Error tracking (Sentry)
 - [ ] Log aggregation
-- [ ] SSL/HTTPS enforced
+- [ ] SSL/HTTPS enforced (Vercel + Fly.io handle this)
 - [ ] Environment management (staging + production)
 - [ ] Load testing (target: 10K concurrent users)
+- [ ] Clerk production instance (auth)
 
 **Quality Gate:** 3x critique, focus on security, reliability, failure recovery.
 
@@ -465,11 +489,15 @@ Draft → QA Critique #1 → Revise → QA Critique #2 → Revise → CEO Final 
 ### Ongoing (Pre-Revenue)
 | Item | Monthly |
 |------|---------|
-| Fly.io (API + worker + DB) | ~$15 |
-| S3/R2 (documents, photos) | ~$2 |
-| Redis | ~$5 |
+| Supabase (Postgres + TimescaleDB + RLS + realtime) | Free tier → $25/mo Pro |
+| Vercel (Next.js hosting) | Free tier → $20/mo Pro |
+| Fly.io (FastAPI + worker) | ~$10 |
+| Cloudflare R2 (documents, photos) | ~$1 (no egress fees) |
+| Upstash Redis (job queue) | Free tier → $10/mo |
+| Clerk (auth) | Free (10K MAU) → $25/mo |
 | Domain | ~$1 |
-| **Total** | **~$23/mo** |
+| **Total (free tiers)** | **~$12/mo** |
+| **Total (pro tiers at scale)** | **~$91/mo** |
 
 ### Revenue Model
 | Tier | Price | Target |
