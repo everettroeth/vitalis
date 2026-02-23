@@ -30,6 +30,18 @@ python-json-logger==3.2.1
 # --- File handling ---
 python-multipart==0.0.20
 
+# --- PDF parsing (parser engine) ---
+pdfplumber==0.11.4          # primary PDF text extraction (digital PDFs)
+rapidfuzz==3.10.1           # fuzzy matching for biomarker name normalisation
+
+# --- OCR fallback (optional — only needed for scanned PDFs) ---
+# pytesseract==0.3.13       # OCR wrapper (requires Tesseract system binary)
+# Pillow==11.1.0            # image processing for OCR
+# PyMuPDF==1.25.1           # PDF rasterisation for OCR (fitz)
+
+# --- AI fallback parser (optional — only needed if ANTHROPIC_API_KEY is set) ---
+anthropic==0.40.0           # Claude API client for generic/AI parser
+
 # --- Dev / testing ---
 pytest==8.3.4
 pytest-asyncio==0.25.2

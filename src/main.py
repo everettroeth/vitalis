@@ -25,6 +25,7 @@ from src.routers import (
     health,
     measurements,
     mood_journal,
+    parsers,
     supplements,
     users,
     wearables,
@@ -116,6 +117,7 @@ def create_app() -> FastAPI:
     app.include_router(goals.router, prefix=v1_prefix)
     app.include_router(measurements.router, prefix=v1_prefix)
     app.include_router(documents.router, prefix=v1_prefix)
+    app.include_router(parsers.router, prefix=v1_prefix)
 
     return app
 

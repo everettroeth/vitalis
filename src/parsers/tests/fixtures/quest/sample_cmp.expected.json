@@ -1,0 +1,212 @@
+{
+  "parser_used": "quest_v1",
+  "format_detected": "Quest Diagnostics",
+  "confidence": "high",
+  "lab_name": "Quest Diagnostics",
+  "collection_date": "2024-03-15",
+  "report_date": "2024-03-16",
+  "patient_name": "JOHN DOE",
+  "ordering_provider": "Dr. Jane Smith",
+  "needs_review": false,
+  "marker_count": 18,
+  "markers": [
+    {
+      "canonical_name": "glucose",
+      "display_name": "Glucose",
+      "value": 95.0,
+      "value_text": "95",
+      "unit": "mg/dL",
+      "reference_low": 70.0,
+      "reference_high": 99.0,
+      "reference_text": "70-99",
+      "flag": null
+    },
+    {
+      "canonical_name": "bun",
+      "display_name": "BUN",
+      "value": 15.0,
+      "value_text": "15",
+      "unit": "mg/dL",
+      "reference_low": 7.0,
+      "reference_high": 25.0,
+      "reference_text": "7-25",
+      "flag": null
+    },
+    {
+      "canonical_name": "creatinine",
+      "display_name": "Creatinine",
+      "value": 0.9,
+      "value_text": "0.9",
+      "unit": "mg/dL",
+      "reference_low": 0.6,
+      "reference_high": 1.35,
+      "reference_text": "0.60-1.35",
+      "flag": null
+    },
+    {
+      "canonical_name": "egfr",
+      "display_name": "eGFR",
+      "value": 60.0,
+      "value_text": ">60",
+      "unit": "mL/min/1.73m2",
+      "reference_low": 59.0,
+      "reference_high": null,
+      "reference_text": ">59",
+      "flag": null
+    },
+    {
+      "canonical_name": "bun_creatinine_ratio",
+      "display_name": "BUN/Creatinine Ratio",
+      "value": 17.0,
+      "value_text": "17",
+      "unit": "",
+      "reference_low": 9.0,
+      "reference_high": 20.0,
+      "reference_text": "9-20",
+      "flag": null
+    },
+    {
+      "canonical_name": "sodium",
+      "display_name": "Sodium",
+      "value": 140.0,
+      "value_text": "140",
+      "unit": "mEq/L",
+      "reference_low": 136.0,
+      "reference_high": 145.0,
+      "reference_text": "136-145",
+      "flag": null
+    },
+    {
+      "canonical_name": "potassium",
+      "display_name": "Potassium",
+      "value": 4.2,
+      "value_text": "4.2",
+      "unit": "mEq/L",
+      "reference_low": 3.5,
+      "reference_high": 5.1,
+      "reference_text": "3.5-5.1",
+      "flag": null
+    },
+    {
+      "canonical_name": "chloride",
+      "display_name": "Chloride",
+      "value": 102.0,
+      "value_text": "102",
+      "unit": "mEq/L",
+      "reference_low": 98.0,
+      "reference_high": 107.0,
+      "reference_text": "98-107",
+      "flag": null
+    },
+    {
+      "canonical_name": "carbon_dioxide",
+      "display_name": "CO2",
+      "value": 24.0,
+      "value_text": "24",
+      "unit": "mEq/L",
+      "reference_low": 21.0,
+      "reference_high": 32.0,
+      "reference_text": "21-32",
+      "flag": null
+    },
+    {
+      "canonical_name": "calcium",
+      "display_name": "Calcium",
+      "value": 9.4,
+      "value_text": "9.4",
+      "unit": "mg/dL",
+      "reference_low": 8.5,
+      "reference_high": 10.2,
+      "reference_text": "8.5-10.2",
+      "flag": null
+    },
+    {
+      "canonical_name": "protein_total",
+      "display_name": "Total Protein",
+      "value": 7.2,
+      "value_text": "7.2",
+      "unit": "g/dL",
+      "reference_low": 6.3,
+      "reference_high": 8.2,
+      "reference_text": "6.3-8.2",
+      "flag": null
+    },
+    {
+      "canonical_name": "albumin",
+      "display_name": "Albumin",
+      "value": 4.4,
+      "value_text": "4.4",
+      "unit": "g/dL",
+      "reference_low": 3.6,
+      "reference_high": 5.1,
+      "reference_text": "3.6-5.1",
+      "flag": null
+    },
+    {
+      "canonical_name": "globulin",
+      "display_name": "Globulin",
+      "value": 2.8,
+      "value_text": "2.8",
+      "unit": "g/dL",
+      "reference_low": 1.5,
+      "reference_high": 4.5,
+      "reference_text": "1.5-4.5",
+      "flag": null
+    },
+    {
+      "canonical_name": "albumin_globulin_ratio",
+      "display_name": "A/G Ratio",
+      "value": 1.6,
+      "value_text": "1.6",
+      "unit": "",
+      "reference_low": 1.2,
+      "reference_high": 2.2,
+      "reference_text": "1.2-2.2",
+      "flag": null
+    },
+    {
+      "canonical_name": "bilirubin_total",
+      "display_name": "Bilirubin, Total",
+      "value": 0.6,
+      "value_text": "0.6",
+      "unit": "mg/dL",
+      "reference_low": 0.2,
+      "reference_high": 1.2,
+      "reference_text": "0.2-1.2",
+      "flag": null
+    },
+    {
+      "canonical_name": "alkaline_phosphatase",
+      "display_name": "Alkaline Phosphatase",
+      "value": 72.0,
+      "value_text": "72",
+      "unit": "U/L",
+      "reference_low": 44.0,
+      "reference_high": 147.0,
+      "reference_text": "44-147",
+      "flag": null
+    },
+    {
+      "canonical_name": "ast",
+      "display_name": "AST",
+      "value": 22.0,
+      "value_text": "22",
+      "unit": "U/L",
+      "reference_low": 10.0,
+      "reference_high": 40.0,
+      "reference_text": "10-40",
+      "flag": null
+    },
+    {
+      "canonical_name": "alt",
+      "display_name": "ALT",
+      "value": 18.0,
+      "value_text": "18",
+      "unit": "U/L",
+      "reference_low": 7.0,
+      "reference_high": 56.0,
+      "reference_text": "7-56",
+      "flag": null
+    }
+  ]
+}

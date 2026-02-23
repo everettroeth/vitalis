@@ -1,0 +1,79 @@
+{
+  "parser_used": "labcorp_v1",
+  "format_detected": "Labcorp",
+  "confidence": "high",
+  "lab_name": "Labcorp",
+  "collection_date": "2024-04-10",
+  "report_date": "2024-04-11",
+  "patient_name": "JANE SMITH",
+  "needs_review": false,
+  "marker_count": 6,
+  "markers": [
+    {
+      "canonical_name": "cholesterol_total",
+      "display_name": "Total Cholesterol",
+      "value": 185.0,
+      "value_text": "185",
+      "unit": "mg/dL",
+      "reference_low": null,
+      "reference_high": 200.0,
+      "reference_text": "<200",
+      "flag": null
+    },
+    {
+      "canonical_name": "hdl_cholesterol",
+      "display_name": "HDL Cholesterol",
+      "value": 55.0,
+      "value_text": "55",
+      "unit": "mg/dL",
+      "reference_low": 40.0,
+      "reference_high": null,
+      "reference_text": ">40",
+      "flag": null
+    },
+    {
+      "canonical_name": "ldl_cholesterol",
+      "display_name": "LDL Cholesterol",
+      "value": 105.0,
+      "value_text": "105",
+      "unit": "mg/dL",
+      "reference_low": null,
+      "reference_high": 100.0,
+      "reference_text": "<100",
+      "flag": "H"
+    },
+    {
+      "canonical_name": "triglycerides",
+      "display_name": "Triglycerides",
+      "value": 120.0,
+      "value_text": "120",
+      "unit": "mg/dL",
+      "reference_low": null,
+      "reference_high": 150.0,
+      "reference_text": "<150",
+      "flag": null
+    },
+    {
+      "canonical_name": "non_hdl_cholesterol",
+      "display_name": "Non-HDL Cholesterol",
+      "value": 130.0,
+      "value_text": "130",
+      "unit": "mg/dL",
+      "reference_low": null,
+      "reference_high": 130.0,
+      "reference_text": "<130",
+      "flag": null
+    },
+    {
+      "canonical_name": "chol_hdl_ratio",
+      "display_name": "Cholesterol/HDL Ratio",
+      "value": 3.4,
+      "value_text": "3.4",
+      "unit": "ratio",
+      "reference_low": null,
+      "reference_high": 5.0,
+      "reference_text": "<5.0",
+      "flag": null
+    }
+  ]
+}
