@@ -4,6 +4,14 @@
 **Phase 1 Users:** Ev + Wife (dogfood)
 **Phase 2 Users:** Mass distribution (SaaS product)
 **Guiding Principle:** Build for scale from day one, but ship for two people first.
+**Long-Term Target:** Enterprise SaaS — App Store + web access, seamless onboarding.
+
+### Non-Negotiable Requirements
+1. **Enterprise-Ready Architecture** — multi-tenant, SOC2-ready, HIPAA-aware from day one. App Store (iOS/Android via PWA→native wrapper) + web dashboard.
+2. **Frictionless Onboarding** — new user to first insight in under 5 minutes. OAuth device connections, PDF upload for labs, guided setup wizard.
+3. **Comprehensive Test Coverage** — unit tests, integration tests, E2E tests, parser tests. Every lab parser ships with 10+ real-world sample fixtures. CI blocks merge without passing tests.
+4. **Universal Input Compatibility** — blood work parsers for Quest, Labcorp, InsideTracker, Function Health, Marek, custom formats. DEXA parsers for DexaFit, BodySpec, Hologic, GE Lunar. Epigenetic parsers for TruDiagnostic, Elysium Index, GrimAge, DunedinPACE. New formats added via pluggable adapter pattern — never hardcoded.
+5. **Data Portability** — full export (JSON, CSV, PDF report) at any time. No lock-in. Your data is yours.
 
 ---
 

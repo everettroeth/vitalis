@@ -408,7 +408,7 @@ CREATE TABLE blood_panels (
     reported_at     TIMESTAMPTZ,            -- When results were released
     fasting         BOOLEAN,
     specimen_id     TEXT,                   -- Lab's specimen identifier
-    document_id     UUID,                   -- FK to documents table (source PDF)
+    document_id     UUID REFERENCES documents(document_id) ON DELETE SET NULL,  -- source PDF
     notes           TEXT,
     created_at      TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at      TIMESTAMPTZ NOT NULL DEFAULT NOW(),
@@ -521,7 +521,7 @@ CREATE TABLE dexa_scans (
     visceral_fat_lbs    NUMERIC(6,3)  CHECK (visceral_fat_lbs >= 0),
     visceral_fat_in3    NUMERIC(7,2)  CHECK (visceral_fat_in3 >= 0), -- Volume in cubic inches
     android_gynoid_ratio NUMERIC(4,2) CHECK (android_gynoid_ratio > 0),
-    document_id         UUID,                   -- FK to documents
+    document_id         UUID REFERENCES documents(document_id) ON DELETE SET NULL,  -- source doc
     notes               TEXT,
     created_at          TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at          TIMESTAMPTZ NOT NULL DEFAULT NOW(),
@@ -592,7 +592,7 @@ CREATE TABLE epigenetic_tests (
     pace_percentile     NUMERIC(5,2) CHECK (pace_percentile BETWEEN 0 AND 100),
     telomere_length     NUMERIC(6,3),       -- Telomere length in kb (if measured)
     methylation_clock   TEXT,               -- Algorithm: 'dunedinpace', 'horvath', 'grimage'
-    document_id         UUID,               -- FK to documents
+    document_id         UUID REFERENCES documents(document_id) ON DELETE SET NULL,  -- source doc
     raw_data            JSONB,              -- Full provider response
     created_at          TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at          TIMESTAMPTZ NOT NULL DEFAULT NOW(),
@@ -1141,107 +1141,186 @@ ALTER TABLE ingestion_jobs          ENABLE ROW LEVEL SECURITY;
 ALTER TABLE deletion_requests       ENABLE ROW LEVEL SECURITY;
 ALTER TABLE data_export_requests    ENABLE ROW LEVEL SECURITY;
 
+
+-- Accounts RLS (multi-tenant isolation)
+ALTER TABLE accounts ENABLE ROW LEVEL SECURITY;
+CREATE POLICY account_member_isolation ON accounts
+    USING (account_id IN (
+        SELECT account_id FROM users 
+        WHERE user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid
+    ))
+    WITH CHECK (account_id IN (
+        SELECT account_id FROM users 
+        WHERE user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid
+    ));
+
 -- Generic RLS policy for tables with user_id column.
 -- The API sets: SET LOCAL app.current_user_id = '<uuid>';
 
 CREATE POLICY user_isolation ON users
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON user_preferences
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON oauth_identities
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON connected_devices
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON wearable_daily
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON wearable_sleep
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON wearable_activities
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON blood_panels
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON blood_markers
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON dexa_scans
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON dexa_regions
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON dexa_bone_density
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON epigenetic_tests
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON epigenetic_organ_ages
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON lifting_sessions
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON lifting_sets
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON measurements
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON custom_metrics
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON custom_metric_entries
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON supplements
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON supplement_logs
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON nutrition_logs
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON mood_journal
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON menstrual_cycles
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON doctor_visits
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON photos
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON documents
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON goals
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON goal_alerts
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON insights
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON ingestion_jobs
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON deletion_requests
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 CREATE POLICY user_isolation ON data_export_requests
-    USING (user_id = current_setting('app.current_user_id', TRUE)::uuid);
+    USING (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid)
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
+    WITH CHECK (user_id = NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid);
 
 
 -- ============================================================
@@ -1252,58 +1331,64 @@ CREATE POLICY user_isolation ON data_export_requests
 CREATE OR REPLACE FUNCTION audit_mutation()
 RETURNS TRIGGER LANGUAGE plpgsql SECURITY DEFINER AS $$
 DECLARE
-    v_record_id UUID;
-    v_action    audit_action;
+    v_record_id  TEXT;
+    v_action     audit_action;
+    v_pk_column  TEXT := TG_ARGV[0];  -- PK column name passed as trigger argument
+    v_row        JSONB;
+    v_user_id    UUID := NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid;
+    v_request_id UUID := NULLIF(current_setting('app.request_id', TRUE), '')::uuid;
 BEGIN
-    IF TG_OP = 'INSERT' THEN
-        v_record_id := (NEW.*)::text::json->>'user_id';
-        -- Try common PK column names
-        BEGIN
-            v_record_id := (row_to_json(NEW))->>'panel_id';
-        EXCEPTION WHEN OTHERS THEN NULL;
-        END;
-        v_action := 'INSERT';
-        INSERT INTO audit_log(user_id, action_by, table_name, record_id, action, new_values, request_id)
-        VALUES (
-            NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid,
-            NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid,
-            TG_TABLE_NAME,
-            v_record_id,
-            v_action,
-            row_to_json(NEW)::jsonb,
-            NULLIF(current_setting('app.request_id', TRUE), '')::uuid
-        );
-        RETURN NEW;
-    ELSIF TG_OP = 'UPDATE' THEN
-        v_action := 'UPDATE';
-        INSERT INTO audit_log(user_id, action_by, table_name, record_id, action, old_values, new_values, request_id)
-        VALUES (
-            NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid,
-            NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid,
-            TG_TABLE_NAME,
-            v_record_id,
-            v_action,
-            row_to_json(OLD)::jsonb,
-            row_to_json(NEW)::jsonb,
-            NULLIF(current_setting('app.request_id', TRUE), '')::uuid
-        );
-        RETURN NEW;
-    ELSIF TG_OP = 'DELETE' THEN
+    -- Extract the record PK from the appropriate row
+    IF TG_OP = 'DELETE' THEN
+        v_row := row_to_json(OLD)::jsonb;
         v_action := 'DELETE';
-        INSERT INTO audit_log(user_id, action_by, table_name, record_id, action, old_values, request_id)
-        VALUES (
-            NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid,
-            NULLIF(current_setting('app.current_user_id', TRUE), '')::uuid,
-            TG_TABLE_NAME,
-            v_record_id,
-            v_action,
-            row_to_json(OLD)::jsonb,
-            NULLIF(current_setting('app.request_id', TRUE), '')::uuid
-        );
-        RETURN OLD;
+    ELSE
+        v_row := row_to_json(NEW)::jsonb;
+        v_action := TG_OP::audit_action;
     END IF;
+    
+    v_record_id := v_row ->> v_pk_column;
+
+    INSERT INTO audit_log(user_id, action_by, table_name, record_id, action, old_values, new_values, request_id)
+    VALUES (
+        v_user_id,
+        v_user_id,
+        TG_TABLE_NAME,
+        v_record_id::uuid,
+        v_action,
+        CASE WHEN TG_OP IN ('UPDATE','DELETE') THEN row_to_json(OLD)::jsonb END,
+        CASE WHEN TG_OP IN ('INSERT','UPDATE') THEN row_to_json(NEW)::jsonb END,
+        v_request_id
+    );
+
+    RETURN CASE WHEN TG_OP = 'DELETE' THEN OLD ELSE NEW END;
 END;
 $$;
+
+-- Attach audit triggers to all user-data tables
+-- Pass the PK column name as the first argument
+CREATE TRIGGER audit_users AFTER INSERT OR UPDATE OR DELETE ON users
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('user_id');
+CREATE TRIGGER audit_blood_panels AFTER INSERT OR UPDATE OR DELETE ON blood_panels
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('panel_id');
+CREATE TRIGGER audit_blood_markers AFTER INSERT OR UPDATE OR DELETE ON blood_markers
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('marker_id');
+CREATE TRIGGER audit_dexa_scans AFTER INSERT OR UPDATE OR DELETE ON dexa_scans
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('scan_id');
+CREATE TRIGGER audit_epigenetic_tests AFTER INSERT OR UPDATE OR DELETE ON epigenetic_tests
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('test_id');
+CREATE TRIGGER audit_documents AFTER INSERT OR UPDATE OR DELETE ON documents
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('document_id');
+CREATE TRIGGER audit_lifting_sessions AFTER INSERT OR UPDATE OR DELETE ON lifting_sessions
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('session_id');
+CREATE TRIGGER audit_supplements AFTER INSERT OR UPDATE OR DELETE ON supplements
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('supplement_id');
+CREATE TRIGGER audit_goals AFTER INSERT OR UPDATE OR DELETE ON goals
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('goal_id');
+CREATE TRIGGER audit_deletion_requests AFTER INSERT OR UPDATE OR DELETE ON deletion_requests
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('request_id');
+CREATE TRIGGER audit_connected_devices AFTER INSERT OR UPDATE OR DELETE ON connected_devices
+    FOR EACH ROW EXECUTE FUNCTION audit_mutation('device_id');
 
 
 -- ============================================================
