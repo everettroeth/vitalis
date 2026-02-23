@@ -1,0 +1,43 @@
+{
+  "description": "Same night of sleep recorded by two devices (Oura and Garmin). Used to test sleep session matching.",
+  "oura_session": {
+    "source": "oura",
+    "sleep_date": "2026-02-23",
+    "sleep_start": "2026-02-22T23:00:00",
+    "sleep_end": "2026-02-23T06:45:00",
+    "total_sleep_minutes": 425,
+    "rem_minutes": 90,
+    "deep_minutes": 105,
+    "light_minutes": 210,
+    "awake_minutes": 20,
+    "avg_hrv_ms": 58.0,
+    "sleep_score": 84
+  },
+  "garmin_session": {
+    "source": "garmin",
+    "sleep_date": "2026-02-23",
+    "sleep_start": "2026-02-22T23:15:00",
+    "sleep_end": "2026-02-23T06:40:00",
+    "total_sleep_minutes": 420,
+    "rem_minutes": 70,
+    "deep_minutes": 90,
+    "light_minutes": 240,
+    "awake_minutes": 20,
+    "avg_hrv_ms": 52.4,
+    "sleep_score": 78
+  },
+  "non_overlapping_session": {
+    "source": "whoop",
+    "sleep_date": "2026-02-22",
+    "sleep_start": "2026-02-22T13:00:00",
+    "sleep_end": "2026-02-22T14:30:00",
+    "total_sleep_minutes": 90,
+    "rem_minutes": 20,
+    "deep_minutes": 10,
+    "light_minutes": 55,
+    "awake_minutes": 5,
+    "avg_hrv_ms": null,
+    "sleep_score": 40,
+    "_note": "Afternoon nap — should NOT be matched with the main sleep sessions above"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "sleep": [
+    {
+      "id": "OURA-SLEEP-20260222",
+      "average_breath": 13.9,
+      "average_heart_rate": 52.4,
+      "average_hrv": 58,
+      "awake_time": 1200,
+      "bedtime_end": "2026-02-23T06:45:00+00:00",
+      "bedtime_start": "2026-02-22T22:50:00+00:00",
+      "day": "2026-02-23",
+      "deep_sleep_duration": 6300,
+      "efficiency": 92,
+      "heart_rate": {
+        "interval": 300,
+        "items": [58, 55, 53, 51, 50, 51, 52, 53, 55, 57],
+        "timestamp": "2026-02-22T23:00:00+00:00"
+      },
+      "hrv": {
+        "interval": 300,
+        "items": [45, 52, 61, 65, 62, 58, 55, 53, 57, 60],
+        "timestamp": "2026-02-22T23:00:00+00:00"
+      },
+      "latency": 480,
+      "light_sleep_duration": 12600,
+      "low_battery_alert": false,
+      "lowest_heart_rate": 47,
+      "movement_30_sec": "11112233334433221112",
+      "period": 0,
+      "readiness": {
+        "contributors": {
+          "activity_balance": 85,
+          "body_temperature": 90,
+          "hrv_balance": 82,
+          "previous_day_activity": 80,
+          "previous_night": 88,
+          "recovery_index": 84,
+          "resting_heart_rate": 91,
+          "sleep_balance": 79
+        },
+        "score": 84,
+        "temperature_deviation": 0.08,
+        "temperature_trend_deviation": -0.02
+      },
+      "rem_sleep_duration": 5400,
+      "restless_periods": 4,
+      "sleep_phase_5_min": "44333333223222234444332222344443",
+      "sleep_score_delta": 2,
+      "temperature_delta": 0.09,
+      "temperature_deviation": 0.08,
+      "time_in_bed": 28500,
+      "total_sleep_duration": 25500,
+      "type": "long_sleep"
+    }
+  ],
+  "daily_sleep": [
+    {
+      "id": "OURA-DAILY-SLEEP-20260223",
+      "contributors": {
+        "deep_sleep": 85,
+        "efficiency": 92,
+        "latency": 88,
+        "rem_sleep": 78,
+        "restfulness": 82,
+        "timing": 76,
+        "total_sleep": 87
+      },
+      "day": "2026-02-23",
+      "score": 84,
+      "timestamp": "2026-02-23T00:00:00+00:00"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sleeps": [
+    {
+      "summaryId": "GARMIN-SLEEP-20260222",
+      "calendarDate": "2026-02-23",
+      "sleepStartTimestampGMT": 1740200400,
+      "sleepEndTimestampGMT": 1740228000,
+      "sleepStartTimestampLocal": "2026-02-22T23:00:00",
+      "sleepEndTimestampLocal": "2026-02-23T06:40:00",
+      "sleepTimeSeconds": 25200,
+      "deepSleepSeconds": 5400,
+      "lightSleepSeconds": 14400,
+      "remSleepSeconds": 4200,
+      "awakeSleepSeconds": 1200,
+      "averageSpO2Value": 96.2,
+      "averageRespirationValue": 14.8,
+      "averageHeartRateValue": 54,
+      "restingHeartRate": 51,
+      "overallSleepScore": 78,
+      "sleepScoreQualifier": "GOOD",
+      "lastNightAvg5MinHeartRateVariability": 52.4,
+      "sleepLevels": [
+        {"startGMT": 1740200400, "endGMT": 1740203400, "activityLevel": "deep"},
+        {"startGMT": 1740203400, "endGMT": 1740209400, "activityLevel": "light"},
+        {"startGMT": 1740209400, "endGMT": 1740213000, "activityLevel": "rem"},
+        {"startGMT": 1740213000, "endGMT": 1740216000, "activityLevel": "awake"},
+        {"startGMT": 1740216000, "endGMT": 1740221400, "activityLevel": "light"},
+        {"startGMT": 1740221400, "endGMT": 1740224400, "activityLevel": "deep"},
+        {"startGMT": 1740224400, "endGMT": 1740228000, "activityLevel": "rem"}
+      ]
+    }
+  ]
+}

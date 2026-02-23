@@ -1,0 +1,112 @@
+{
+  "description": "Test menstrual cycle data including temperature readings, cycle history, and symptom logs",
+  "regular_cycles": [
+    {"period_start": "2025-07-15", "cycle_length": 28, "is_complete": true},
+    {"period_start": "2025-08-12", "cycle_length": 27, "is_complete": true},
+    {"period_start": "2025-09-08", "cycle_length": 29, "is_complete": true},
+    {"period_start": "2025-10-07", "cycle_length": 28, "is_complete": true},
+    {"period_start": "2025-11-04", "cycle_length": 27, "is_complete": true},
+    {"period_start": "2025-12-01", "cycle_length": 28, "is_complete": true}
+  ],
+  "irregular_cycles": [
+    {"period_start": "2025-07-01", "cycle_length": 21, "is_complete": true},
+    {"period_start": "2025-07-22", "cycle_length": 45, "is_complete": true},
+    {"period_start": "2025-09-05", "cycle_length": 32, "is_complete": true},
+    {"period_start": "2025-10-07", "cycle_length": 24, "is_complete": true},
+    {"period_start": "2025-10-31", "cycle_length": 38, "is_complete": true}
+  ],
+  "temperature_data": {
+    "description": "Daily skin temp deviations (°C from baseline) showing biphasic pattern",
+    "current_cycle_start": "2026-02-01",
+    "readings": [
+      {"date": "2026-02-01", "temp_c": -0.10, "source": "oura"},
+      {"date": "2026-02-02", "temp_c": -0.12, "source": "oura"},
+      {"date": "2026-02-03", "temp_c": -0.08, "source": "oura"},
+      {"date": "2026-02-04", "temp_c": -0.15, "source": "oura"},
+      {"date": "2026-02-05", "temp_c": -0.09, "source": "oura"},
+      {"date": "2026-02-06", "temp_c": -0.11, "source": "oura"},
+      {"date": "2026-02-07", "temp_c": -0.07, "source": "oura"},
+      {"date": "2026-02-08", "temp_c": -0.13, "source": "oura"},
+      {"date": "2026-02-09", "temp_c": -0.10, "source": "oura"},
+      {"date": "2026-02-10", "temp_c": -0.08, "source": "oura"},
+      {"date": "2026-02-11", "temp_c": -0.06, "source": "oura"},
+      {"date": "2026-02-12", "temp_c": -0.04, "source": "oura"},
+      {"date": "2026-02-13", "temp_c": -0.02, "source": "oura"},
+      {"date": "2026-02-14", "temp_c": 0.18, "source": "oura", "_note": "ovulation shift day 1"},
+      {"date": "2026-02-15", "temp_c": 0.24, "source": "oura", "_note": "ovulation shift day 2"},
+      {"date": "2026-02-16", "temp_c": 0.22, "source": "oura", "_note": "ovulation shift day 3 - confirmed"},
+      {"date": "2026-02-17", "temp_c": 0.28, "source": "oura"},
+      {"date": "2026-02-18", "temp_c": 0.25, "source": "oura"},
+      {"date": "2026-02-19", "temp_c": 0.30, "source": "oura"},
+      {"date": "2026-02-20", "temp_c": 0.27, "source": "oura"},
+      {"date": "2026-02-21", "temp_c": 0.29, "source": "oura"},
+      {"date": "2026-02-22", "temp_c": 0.26, "source": "oura"},
+      {"date": "2026-02-23", "temp_c": 0.31, "source": "oura"}
+    ]
+  },
+  "symptom_logs": [
+    {
+      "date": "2026-02-01",
+      "cycle_day": 1,
+      "phase": "menstrual",
+      "symptoms": {"flow": "heavy", "cramps": 4, "mood": "irritable", "energy": 2},
+      "hrv_ms": 42.1,
+      "rhr_bpm": 58,
+      "sleep_minutes": 390
+    },
+    {
+      "date": "2026-02-02",
+      "cycle_day": 2,
+      "phase": "menstrual",
+      "symptoms": {"flow": "heavy", "cramps": 3, "mood": "sad", "energy": 2},
+      "hrv_ms": 44.0,
+      "rhr_bpm": 57,
+      "sleep_minutes": 400
+    },
+    {
+      "date": "2026-02-05",
+      "cycle_day": 5,
+      "phase": "menstrual",
+      "symptoms": {"flow": "light", "cramps": 1, "mood": "calm", "energy": 3},
+      "hrv_ms": 48.5,
+      "rhr_bpm": 55,
+      "sleep_minutes": 420
+    },
+    {
+      "date": "2026-02-12",
+      "cycle_day": 12,
+      "phase": "follicular",
+      "symptoms": {"flow": "none", "cramps": 0, "mood": "happy", "energy": 5, "libido": "high"},
+      "hrv_ms": 58.2,
+      "rhr_bpm": 51,
+      "sleep_minutes": 445
+    },
+    {
+      "date": "2026-02-14",
+      "cycle_day": 14,
+      "phase": "ovulation",
+      "symptoms": {"cramps": 1, "mood": "happy", "energy": 5, "libido": "high"},
+      "hrv_ms": 55.0,
+      "rhr_bpm": 52,
+      "sleep_minutes": 430
+    },
+    {
+      "date": "2026-02-20",
+      "cycle_day": 20,
+      "phase": "luteal",
+      "symptoms": {"cramps": 0, "mood": "calm", "energy": 3, "bloating": "mild"},
+      "hrv_ms": 49.8,
+      "rhr_bpm": 54,
+      "sleep_minutes": 415
+    },
+    {
+      "date": "2026-02-23",
+      "cycle_day": 23,
+      "phase": "luteal",
+      "symptoms": {"cramps": 0, "mood": "irritable", "energy": 3, "bloating": "moderate", "breast_tenderness": "mild"},
+      "hrv_ms": 47.2,
+      "rhr_bpm": 55,
+      "sleep_minutes": 405
+    }
+  ]
+}

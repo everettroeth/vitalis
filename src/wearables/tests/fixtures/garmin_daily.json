@@ -1,0 +1,32 @@
+{
+  "dailies": [
+    {
+      "summaryId": "GARMIN-DAILY-20260223",
+      "calendarDate": "2026-02-23",
+      "totalSteps": 11432,
+      "totalDistanceInMeters": 9124.5,
+      "activeKilocalories": 542,
+      "burnedKilocalories": 2180,
+      "activeTimeInSeconds": 4320,
+      "moderateIntensityMinutes": 42,
+      "vigorousIntensityMinutes": 18,
+      "floorsAscended": 12,
+      "floorsDescended": 11,
+      "restingHeartRateInBeatsPerMinute": 51,
+      "maxHeartRateInBeatsPerMinute": 162,
+      "averageStressLevel": 28,
+      "maxStressLevel": 67,
+      "stressQualifier": "LOW",
+      "bodyBatteryChargedValue": 95,
+      "bodyBatteryDrainedValue": 42,
+      "bodyBatteryHighestValue": 95,
+      "bodyBatteryLowestValue": 12,
+      "averageSpo2": 97.1,
+      "averageRespirationValue": 14.2,
+      "awakeRespirationValue": 15.1,
+      "latestRespirationValue": 14.0,
+      "lastNightAvg5MinHeartRateVariability": 52.4,
+      "currentDayRestingCalories": null
+    }
+  ]
+}

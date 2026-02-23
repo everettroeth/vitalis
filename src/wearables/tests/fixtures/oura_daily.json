@@ -1,0 +1,57 @@
+{
+  "daily_activity": [
+    {
+      "id": "OURA-ACTIVITY-20260223",
+      "active_calories": 487,
+      "average_met_minutes": 1.82,
+      "contributors": {
+        "meet_daily_targets": 85,
+        "move_every_hour": 100,
+        "recovery_time": 100,
+        "stay_active": 95,
+        "training_frequency": 88,
+        "training_volume": 72
+      },
+      "day": "2026-02-23",
+      "equivalent_walking_distance": 8240,
+      "high_activity_met_minutes": 68,
+      "high_activity_time": 1440,
+      "inactivity_alerts": 0,
+      "low_activity_met_minutes": 126,
+      "low_activity_time": 6480,
+      "medium_activity_met_minutes": 142,
+      "medium_activity_time": 3720,
+      "meters_to_target": 0,
+      "non_wear_time": 0,
+      "resting_time": 54360,
+      "score": 91,
+      "sedentary_met_minutes": 11,
+      "sedentary_time": 28800,
+      "steps": 10241,
+      "target_calories": 400,
+      "target_meters": 7000,
+      "timestamp": "2026-02-23T00:00:00+00:00",
+      "total_calories": 2118
+    }
+  ],
+  "daily_readiness": [
+    {
+      "id": "OURA-READINESS-20260223",
+      "contributors": {
+        "activity_balance": 85,
+        "body_temperature": 90,
+        "hrv_balance": 82,
+        "previous_day_activity": 80,
+        "previous_night": 88,
+        "recovery_index": 84,
+        "resting_heart_rate": 91,
+        "sleep_balance": 79
+      },
+      "day": "2026-02-23",
+      "score": 84,
+      "temperature_deviation": 0.08,
+      "temperature_trend_deviation": -0.02,
+      "timestamp": "2026-02-23T00:00:00+00:00"
+    }
+  ]
+}

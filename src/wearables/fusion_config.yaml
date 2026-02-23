@@ -1,0 +1,178 @@
+# ============================================================
+# Vitalis Fusion Configuration
+# ============================================================
+# This file controls how multi-device data is merged.
+# Edit weights, tolerances, and priorities here.
+# Changes take effect on next sync or manual recompute.
+# ============================================================
+
+version: "1.0"
+
+# ── Device Accuracy Weights ──────────────────────────────────
+# Scale: 0.0 (ignore) to 1.0 (gold standard)
+# Based on published validation studies and sensor physics.
+# Weights are normalized at fusion time (don't need to sum to 1.0)
+
+device_weights:
+  sleep_duration:
+    oura:         0.90   # Finger PPG — best sleep onset/offset detection
+    apple_watch:  0.75   # Wrist PPG — good but more motion artifact
+    garmin:       0.70   # Wrist PPG — similar to Apple, slightly less validated
+    whoop:        0.80   # Wrist PPG — strong algorithm, well-validated
+
+  sleep_stages:  # deep, light, REM, awake
+    oura:         0.90   # Temp + HRV + movement — best staging combo
+    apple_watch:  0.65   # HRV + movement only
+    garmin:       0.60   # Movement-heavy algorithm, less accurate staging
+    whoop:        0.80   # HRV-focused, good staging
+
+  hrv:  # Heart rate variability (ms, RMSSD)
+    oura:         0.95   # Finger PPG — gold standard for consumer wearables
+    apple_watch:  0.70   # Wrist PPG — more noise
+    garmin:       0.65   # Wrist PPG — known to underread in some models
+    whoop:        0.85   # Wrist PPG — strong HRV algorithm
+
+  resting_heart_rate:
+    oura:         0.90   # Measured during sleep — most accurate context
+    apple_watch:  0.80   # Multiple readings throughout day
+    garmin:       0.80   # Similar to Apple
+    whoop:        0.85   # Strong algorithm
+
+  spo2:  # Blood oxygen
+    oura:         0.85   # Finger — better perfusion
+    apple_watch:  0.70   # Wrist — decent
+    garmin:       0.60   # Wrist — varies by model
+    whoop:        0.65   # Wrist
+
+  steps:
+    garmin:       0.85   # Wrist accelerometer — well-calibrated
+    apple_watch:  0.85   # Similar quality
+    oura:         0.50   # Ring accelerometer — undercounts
+    whoop:        0.40   # Not primary use case
+
+  calories_burned:
+    garmin:       0.80   # HR + movement + GPS
+    apple_watch:  0.80   # Similar approach
+    whoop:        0.75   # HR-based
+    oura:         0.55   # Less accurate for active calories
+
+  respiratory_rate:
+    oura:         0.85   # Sleep-measured, finger-based
+    whoop:        0.80   # Sleep-measured
+    apple_watch:  0.70   # Available but less validated
+    garmin:       0.65   # Newer feature, less validated
+
+  skin_temperature:
+    oura:         0.90   # Finger temp sensor — best consumer device for this
+    apple_watch:  0.75   # Wrist temp (Series 8+)
+    garmin:       0.0    # Not available on most models
+    whoop:        0.70   # Skin temp available
+
+  body_battery_readiness:
+    # Each device has a proprietary score. We DON'T fuse these.
+    # Instead, Vitalis computes its own readiness from fused raw metrics.
+    # Set to 0.0 to exclude from fusion.
+    oura:         0.0
+    garmin:       0.0
+    apple_watch:  0.0
+    whoop:        0.0
+
+  menstrual_cycle:
+    # Cycle tracking priority — temp-based predictions are most accurate
+    oura:         0.90   # Temp tracking — best predictor
+    apple_watch:  0.75   # Wrist temp (Series 8+) + manual logging
+    garmin:       0.50   # Manual logging only on most models
+    whoop:        0.60   # Some cycle features
+    # Note: All devices supplement, not replace, manual period logging.
+    # User-entered period dates are always weight 1.0 (ground truth).
+
+# ── Fusion Tolerances ────────────────────────────────────────
+# When two devices disagree by MORE than the tolerance,
+# it's flagged as a conflict and primary source wins.
+
+tolerances:
+  sleep_duration_minutes: 30     # >30min disagreement = conflict
+  sleep_stage_minutes: 20        # >20min disagreement per stage
+  hrv_ms: 15                     # >15ms RMSSD disagreement
+  resting_hr_bpm: 5              # >5bpm disagreement
+  spo2_pct: 3                    # >3% disagreement
+  steps_count: 2000              # >2000 steps disagreement
+  skin_temp_celsius: 0.5         # >0.5°C disagreement
+  respiratory_rate_brpm: 3       # >3 breaths/min disagreement
+
+# ── Sleep Session Matching ───────────────────────────────────
+# How we determine two devices recorded the "same" sleep session
+
+sleep_matching:
+  min_overlap_pct: 60            # Sessions must overlap by 60%+ to be "same sleep"
+  max_start_diff_minutes: 60     # Start times can differ by up to 60min
+  sleep_day_cutoff_hour: 18      # Sleep before 6PM = previous day's sleep
+
+# ── Vitalis Readiness Score ──────────────────────────────────
+# Our own readiness score computed from fused raw metrics.
+# NOT a copy of any device's proprietary score.
+
+readiness_score:
+  enabled: true
+  components:
+    hrv_vs_baseline:
+      weight: 0.30
+      description: "HRV compared to personal 30-day rolling average"
+    resting_hr_vs_baseline:
+      weight: 0.20
+      description: "RHR compared to personal 30-day average (lower = better)"
+    sleep_quality:
+      weight: 0.25
+      description: "Composite: duration + deep% + efficiency"
+    sleep_consistency:
+      weight: 0.10
+      description: "How consistent sleep/wake times are vs 7-day pattern"
+    recovery_time:
+      weight: 0.15
+      description: "Days since last high-intensity workout"
+  scale: 0-100
+  thresholds:
+    thriving: 75    # 75+ = green/thriving
+    watch: 50       # 50-74 = amber/watch
+    concern: 0      # 0-49 = clay/attention
+
+# ── Menstrual Cycle Intelligence ─────────────────────────────
+# Cycle tracking uses temperature data + manual logging for prediction.
+
+menstrual_cycle:
+  enabled: true
+  prediction_model: "temperature_assisted"  # or "calendar_only", "ml_hybrid"
+  temp_source_priority: ["oura", "apple_watch", "whoop", "garmin"]
+  fertile_window:
+    method: "temp_shift"           # Detect ovulation via 0.2°C+ sustained temp rise
+    confirmation_days: 3           # 3 consecutive elevated days confirms ovulation
+    predicted_window_days: 6       # Show 6-day fertile window (5 before + day of ovulation)
+  cycle_length:
+    rolling_average_cycles: 6      # Average last 6 cycles for prediction
+    min_cycle_days: 21             # Flag cycles shorter than 21 days
+    max_cycle_days: 45             # Flag cycles longer than 45 days
+  symptoms:
+    track: true                    # Enable symptom logging (cramps, mood, flow, etc.)
+    correlation_engine: true       # Correlate symptoms with phase, sleep, HRV
+  privacy:
+    separate_data_flag: true       # Mark menstrual data with extra privacy flag
+    explicit_opt_in: true          # User must explicitly enable cycle tracking
+    excluded_from_sharing: true    # Never included in family/household shared view
+    gdpr_sensitive_category: true  # Treated as special category data under GDPR
+
+# ── Unit Preferences ─────────────────────────────────────────
+default_units:
+  temperature: "celsius"     # or "fahrenheit"
+  distance: "miles"          # or "kilometers"
+  weight: "lbs"              # or "kg"
+  height: "inches"           # or "cm"
+
+# ── Backfill Settings ────────────────────────────────────────
+backfill:
+  enabled: true
+  garmin_max_days: 3650      # Up to 10 years
+  oura_max_days: 3650
+  apple_health_max_days: 3650
+  whoop_max_days: 3650
+  batch_size_days: 30        # Process 30 days at a time
+  rate_limit_ms: 500         # Wait between API calls to avoid throttling
